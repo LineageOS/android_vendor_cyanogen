@@ -7,7 +7,7 @@
  * 
  * Released under the Apache License v2.
  */
-package com.cyanogenmod.android;
+package com.cyanogenmod.android.input;
 
 import android.content.res.Resources;
 import android.util.DisplayMetrics;
