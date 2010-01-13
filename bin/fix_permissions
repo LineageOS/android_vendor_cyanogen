@@ -261,7 +261,7 @@ fp_all()
 {
 	FP_NUMS=$( $EGREP "^<package.*serId" /data/system/packages.xml | $GREP -cv 'framework-res.apk\|com.htc.resources.apk' )
 	I=0
-	$EGREP "^<package.*serId" /data/system/packages.xml | $GREP -cv 'framework-res.apk\|com.htc.resources.apk' | while read all_line; do
+	$EGREP "^<package.*serId" /data/system/packages.xml | $GREP -v 'framework-res.apk\|com.htc.resources.apk' | while read all_line; do
 		I=$( $EXPR $I + 1 )
 		fp_package "$all_line" $I $FP_NUMS
 	done
