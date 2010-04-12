@@ -28,25 +28,16 @@ check_installscript() {
 get_files() {
     cat <<EOF
 app/BugReport.apk
-app/CarDock.apk
-app/CorpCal.apk
 app/com.amazon.mp3.apk
 app/EnhancedGoogleSearchProvider.apk app/GoogleSearch.apk
-app/Facebook.apk
-app/GenieWidget.apk
 app/Gmail.apk
 app/GmailProvider.apk
 app/GoogleApps.apk
 app/GoogleBackupTransport.apk
 app/GoogleCheckin.apk
-app/GoogleContactsSyncAdapter.apk
-app/GoogleGoggles.apk
 app/GooglePartnerSetup.apk
 app/GoogleSettingsProvider.apk
-app/GoogleSubscribedFeedsProvider.apk
-app/googlevoice.apk
 app/gtalkservice.apk
-app/HtcCopyright.apk
 app/LatinImeTutorial.apk
 app/Maps.apk
 app/MarketUpdater.apk
@@ -56,17 +47,13 @@ app/PassionQuickOffice.apk
 app/SetupWizard.apk app/Provision.apk
 app/Street.apk
 app/Talk.apk
-app/TalkProvider.apk
 app/Vending.apk
-app/VoiceSearchWithKeyboard.apk app/LatinIME.apk
 app/YouTube.apk
-etc/permissions/com.google.android.datamessaging.xml
 etc/permissions/com.google.android.gtalkservice.xml
 etc/permissions/com.google.android.maps.xml
 framework/com.google.android.gtalkservice.jar
 framework/com.google.android.maps.jar
 lib/libgtalk_jni.so
-lib/libinterstitial.so
 EOF
 }
 

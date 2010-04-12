@@ -18,6 +18,9 @@
 
 $(call inherit-product, vendor/aosp/products/aosp_dream_us.mk)
 
+TARGET_OTA_SCRIPT_MODE=edify
+TARGET_OTA_BACKUPTOOL=True
+
 PRODUCT_NAME := cyanogen_dream_us
 
 PRODUCT_PROPERTY_OVERRIDES += \
