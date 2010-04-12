@@ -20,27 +20,56 @@ $(call inherit-product, vendor/aosp/products/aosp_dream_us.mk)
 
 PRODUCT_NAME := cyanogen_dream_us
 
-PRODUCT_PACKAGES += Superuser DeskClock
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.rommanager.developerid=cyanogenmod
+
+# Used by BusyBox
+KERNEL_MODULES_DIR:=/system/lib/modules
+
+# Tiny toolbox
+TINY_TOOLBOX:=true
+
+PRODUCT_PACKAGES += Superuser DeskClock Stk
 
 PRODUCT_PACKAGE_OVERLAYS := vendor/cyanogen/overlay
 
-PRODUCT_COPY_FILES += vendor/cyanogen/etc/apns-conf.xml:system/etc/apns-conf.xml \
-                      vendor/cyanogen/etc/dnsmasq.conf:system/etc/dnsmasq.conf \
-                      vendor/cyanogen/etc/fstab:system/etc/fstab \
-                      vendor/cyanogen/etc/sysctl.conf:system/etc/sysctl.conf \
-                      vendor/cyanogen/etc/init.d/00banner:system/etc/init.d/00banner \
-                      vendor/cyanogen/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
-                      vendor/cyanogen/etc/init.d/03firstboot:system/etc/init.d/03firstboot \
-                      vendor/cyanogen/etc/init.d/04apps2sd:system/etc/init.d/04apps2sd \
-                      vendor/cyanogen/etc/init.d/05userinit:system/etc/init.d/05userinit \
-                      vendor/cyanogen/etc/init.d/99complete:system/etc/init.d/99complete \
-					  vendor/cyanogen/etc/permissions/com.cyanogenmod.android.xml:system/etc/permissions/com.cyanogenmod.android.xml \
-                      vendor/cyanogen/bin/fix_permissions:system/bin/fix_permissions \
-                      vendor/cyanogen/bin/usb-tether:system/bin/usb-tether \
-					  vendor/cyanogen/bin/shutdown:system/bin/shutdown \
-					  vendor/cyanogen/bin/compcache:system/bin/compcache
+PRODUCT_COPY_FILES += \
+    frameworks/base/data/etc/android.hardware.camera.autofocus.xml:system/etc/permissions/android.hardware.camera.autofocus.xml \
+    frameworks/base/data/etc/android.hardware.touchscreen.multitouch.xml:system/etc/permissions/android.hardware.touchscreen.multitouch.xml \
+    vendor/cyanogen/prebuilt/dream/etc/fstab:system/etc/fstab \
+    vendor/cyanogen/prebuilt/common/etc/e2fsck.conf:system/etc/e2fsck.conf \
+    vendor/cyanogen/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
+    vendor/cyanogen/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
+    vendor/cyanogen/prebuilt/common/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
+    vendor/cyanogen/prebuilt/common/etc/init.d/03firstboot:system/etc/init.d/03firstboot \
+    vendor/cyanogen/prebuilt/common/etc/init.d/04modules:system/etc/init.d/04modules \
+    vendor/cyanogen/prebuilt/common/etc/init.d/05mountsd:system/etc/init.d/05mountsd \
+    vendor/cyanogen/prebuilt/common/etc/init.d/10apps2sd:system/etc/init.d/10apps2sd \
+    vendor/cyanogen/prebuilt/common/etc/init.d/20userinit:system/etc/init.d/20userinit \
+    vendor/cyanogen/prebuilt/common/etc/init.d/99complete:system/etc/init.d/99complete \
+    vendor/cyanogen/prebuilt/common/bin/fix_permissions:system/bin/fix_permissions \
+    vendor/cyanogen/prebuilt/common/bin/usb-tether:system/bin/usb-tether \
+    vendor/cyanogen/prebuilt/common/bin/shutdown:system/bin/shutdown \
+    vendor/cyanogen/prebuilt/common/bin/compcache:system/bin/compcache \
+    vendor/cyanogen/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/cyanogen/prebuilt/common/xbin/openvpn-up.sh:system/xbin/openvpn-up.sh \
+    vendor/cyanogen/prebuilt/common/xbin/dropbear-keygen:system/xbin/dropbear-keygen
 
-PRODUCT_LOCALES := \
+# Various prebuilt stuff that hasen't been android-ized yet
+PRODUCT_COPY_FILES += \
+    vendor/cyanogen/prebuilt/common/lib/libncurses.so:system/lib/libncurses.so \
+    vendor/cyanogen/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf \
+    vendor/cyanogen/prebuilt/common/etc/terminfo/l/linux:system/etc/terminfo/l/linux \
+    vendor/cyanogen/prebuilt/common/etc/terminfo/u/unknown:system/etc/terminfo/u/unknown \
+    vendor/cyanogen/prebuilt/common/etc/profile:system/etc/profile \
+    vendor/cyanogen/prebuilt/common/xbin/bash:system/xbin/bash \
+    vendor/cyanogen/prebuilt/common/xbin/htop:system/xbin/htop \
+    vendor/cyanogen/prebuilt/common/xbin/irssi:system/xbin/irssi \
+    vendor/cyanogen/prebuilt/common/xbin/lsof:system/xbin/lsof \
+    vendor/cyanogen/prebuilt/common/xbin/nano:system/xbin/nano \
+    vendor/cyanogen/prebuilt/common/xbin/powertop:system/xbin/powertop
+
+PRODUCT_LOCALES := en_US \
 	ar_EG \
 	ar_IL \
 	bg_BG \
@@ -59,7 +88,6 @@ PRODUCT_LOCALES := \
 	en_IN \
 	en_NZ \
 	en_SG \
-	en_US \
 	en_ZA \
 	es_ES \
 	es_US \
