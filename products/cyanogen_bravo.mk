@@ -23,7 +23,7 @@ PRODUCT_BRAND := htc_wwe
 PRODUCT_DEVICE := bravo
 PRODUCT_MODEL := HTC Desire
 PRODUCT_MANUFACTURER := HTC
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_ID=ERE27 BUILD_DISPLAY_ID=ERE27 PRODUCT_NAME=htc_bravo BUILD_FINGERPRINT=htc_wwe/htc_bravo/bravo/bravo:2.1-update1/ERE27/155070:user/release-keys PRIVATE_BUILD_DESC="bravo-user 2.1-update1 ERE27 24178 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES := BUILD_ID=ERE27 BUILD_DISPLAY_ID=ERE27 PRODUCT_NAME=htc_bravo BUILD_FINGERPRINT=htc_wwe/htc_bravo/bravo/bravo:2.1-update1/ERE27/155070:user/release-keys PRIVATE_BUILD_DESC="bravo-user 2.1-update1 ERE27 155070 release-keys"
 
 PRODUCT_COPY_FILES +=  \
     vendor/cyanogen/prebuilt/bravo/media/bootanimation.zip:system/media/bootanimation.zip
@@ -36,7 +36,7 @@ ifdef CYANOGEN_NIGHTLY
         ro.modversion=CyanogenMod-5-$(shell date +%m%d%Y)-NIGHTLY-N1
 else
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-5.0.8-bravo-test5
+        ro.modversion=CyanogenMod-5.0.8-bravo-test6
 endif
 
 include vendor/htc/bravo/device_bravo.mk
