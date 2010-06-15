@@ -28,16 +28,5 @@
 PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/cyanogen_dream_sapphire.mk \
 	$(LOCAL_DIR)/cyanogen_passion.mk \
-<<<<<<< HEAD
-<<<<<<< HEAD
 	$(LOCAL_DIR)/cyanogen_sholes.mk \
 	$(LOCAL_DIR)/cyanogen_bravo.mk
-	
-
-=======
-	$(LOCAL_DIR)/cyanogen_sholes.mk
->>>>>>> cyanogen/eclair
-=======
-	$(LOCAL_DIR)/cyanogen_sholes.mk \
-	$(LOCAL_DIR)/cyanogen_bravo.mk
->>>>>>> 8756d47... fix build
