@@ -29,7 +29,7 @@ WORK=/tmp/repack
 rm -rf $WORK
 mkdir -p $WORK
 
-if [ -z "$NO_SQUASHFS" ]
+if [ "$TARGET_PRODUCT" == "cyanogen_dream_sapphire" ]
 then
    # Create the xbin squashfs
    cp -a $XBIN $WORK/xbin/
@@ -54,7 +54,7 @@ done
 
 cd $WORK/ota/system
 
-if [ -z "$NO_SQUASHFS" ]
+if [ "$TARGET_PRODUCT" == "cyanogen_dream_sapphire" ]
 then
    # Relocate su and put xbin.sqf where it belongs
    rm -f bin/su
@@ -95,7 +95,7 @@ rm updater-script.new
 zip -r update.zip .
 echo "Signing package.."
 SECURITYDIR=$ANDROID_BUILD_TOP/build/target/product/security
-java -jar $ANDROID_BUILD_TOP/out/host/$OUT_TARGET_HOST/framework/signapk.jar -w $SECURITYDIR/testkey.x509.pem $SECURITYDIR/testkey.pk8 update.zip update_signed.zip
+java -Xmx2048m -jar $ANDROID_BUILD_TOP/out/host/$OUT_TARGET_HOST/framework/signapk.jar -w $SECURITYDIR/testkey.x509.pem $SECURITYDIR/testkey.pk8 update.zip update_signed.zip
 
 mv update_signed.zip $OUT/update-cm-$MODVERSION-signed.zip
 $MD5 $OUT/update-cm-$MODVERSION-signed.zip > $OUT/update-cm-$MODVERSION-signed.zip.md5sum
