@@ -30,6 +30,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_ID=EPE54B BUILD_DISPLAY_ID=EPE54B BUILD_FI
 PRODUCT_PACKAGES += \
     Stk
 
+PRODUCT_COPY_FILES += \
+    vendor/cyanogen/prebuilt/dream_sapphire/etc/init.d/02audio_profile:system/etc/init.d/02audio_profile
+
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
         ro.modversion=CyanogenMod-5-$(shell date +%m%d%Y)-NIGHTLY-DS
