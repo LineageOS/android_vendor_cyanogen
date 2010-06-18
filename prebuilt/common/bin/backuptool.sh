@@ -48,6 +48,7 @@ app/GoogleSubscribedFeedsProvider.apk
 app/googlevoice.apk
 app/gtalkservice.apk
 app/HtcCopyright.apk
+app/kickback.apk
 app/LatinImeTutorial.apk
 app/Maps.apk
 app/MarketUpdater.apk
@@ -55,9 +56,12 @@ app/MediaUploader.apk
 app/NetworkLocation.apk
 app/PassionQuickOffice.apk
 app/SetupWizard.apk app/Provision.apk
+app/soundback.apk
 app/Street.apk
+app/talkback.apk
 app/Talk.apk
 app/TalkProvider.apk
+app/Twitter.apk
 app/Vending.apk
 app/VoiceSearch.apk
 app/VoiceSearchWithKeyboard.apk app/LatinIME.apk

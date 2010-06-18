@@ -29,5 +29,3 @@ PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/cyanogen_dream_sapphire.mk \
 	$(LOCAL_DIR)/cyanogen_passion.mk \
 	$(LOCAL_DIR)/cyanogen_sholes.mk
-	
-
