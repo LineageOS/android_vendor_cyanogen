@@ -1,9 +1,9 @@
 CHANGELOG
 
----- 5.0.8 (pre)
+---- 5.0.8
 * Common: Resync with Google as of 06/08/2010
 * Common: Kernel 2.6.34 for DS & N1
-* Common: ADWLauncher 0.7.8 by Ander Webbs is now the default launcher (http://github.com/anderweb)
+* Common: ADWLauncher 0.8.5 by Ander Webbs is now the default launcher (http://github.com/anderweb)
 * Common: Complete music app overhaul (with gestures support) by Eliot Stocker (http://github.com/eliotstocker)
 * Common: Customizable silent mode - Glenn Maynard (http://github.com/zewt)
 * Common: More customizable colors for various parts of the system (in Spare Parts) - Wysie & Bcrook
@@ -13,7 +13,6 @@ CHANGELOG
 * Common: Bluetooth DUN tether support (Omni-Tether) - Stefan Tomanek (http://github.com/wertarbyte)
 * Common: Various minor bugfixes
 * Common: Ability to load custom color theme xml - Wysie
-* Common: Support AlbumArtist in media scanner
 * Common: Various code cleanups all throughout the source - Christian Mehlmauer
 * Common: Fix issue where notifications would play thru the HW speaker even if a headset was connected - Glenn Maynard
 * Common: Only load IPV6 if persist.net.ipv6 is set - Glenn Maynard
@@ -27,6 +26,9 @@ CHANGELOG
 * Common: ADW Launcher settings and Spare Parts are now under the main Settings app - Mehdi ABAAKOUK (http://github.com/sileht)
 * Common: Fix brightness going out of range - Glenn Maynard
 * Common: Fix parsing of SMS messages from short numbers - Glenn Maynard
+* Common: Improve BiDi text rendering - Dudy Kohen
+* Common: Fix WindowManagerService issue that could cause apps to get OOM killed out of order
+* Common: Busybox updated to 1.16.2 - Dylan Simon
 * D/S: Kernel tweaks to hopefully improve memory usage- enable TINY_RCU and deadline iosched (I can no longer reproduce the flash_image failures with this configuration)
 * D/S: Multitouch and swipe added to legacy gallery app
 * D/S: Long standing "disappearing icons" Launcher bug fixed - Glenn Maynard
@@ -37,6 +39,7 @@ CHANGELOG
 * D/S: Load the correct audio profile for the device to fix glitchy audio on Dream
 * D/S: Default compcache size set to 12MB
 * D/S: Offset the lowmemorykiller to allow for use of a fraction of swap (Dumfuq & Farmatito @XDA)
+* D/S: Prevent allocation failure when enabling Compcache
 * N1: Debounce power button (Arve @ Google)
 * N1: Target new radio version (FRF50)
 * N1: Wireless driver update from Broadcom
