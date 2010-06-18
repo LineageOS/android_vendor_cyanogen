@@ -33,7 +33,7 @@ ifdef CYANOGEN_NIGHTLY
         ro.modversion=CyanogenMod-5-$(shell date +%m%d%Y)-NIGHTLY-Droid
 else
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-5.0.8-test5-Droid
+        ro.modversion=CyanogenMod-5.0.8-test6-Droid
 endif
 
 include vendor/motorola/sholes-open/device_sholes.mk

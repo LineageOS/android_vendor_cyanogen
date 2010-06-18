@@ -80,7 +80,7 @@ cd $WORK/ota
 rm -rf recovery
 
 # Remove xbin stuff and fix up updater-script
-if [ -z "$NO_SQUASHFS" ]
+if [ "$TARGET_PRODUCT" == "cyanogen_dream_sapphire" ]
 then
    sed -e "s/system\/xbin\/su/system\/bin\/su/g" META-INF/com/google/android/updater-script | grep -v xbin > updater-script.new
 else
