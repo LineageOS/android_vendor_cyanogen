@@ -29,7 +29,7 @@ WORK=/tmp/repack
 rm -rf $WORK
 mkdir -p $WORK
 
-if [ "$TARGET_PRODUCT" == "cyanogen_dream_sapphire" ]
+if [ "$TARGET_PRODUCT" = "cyanogen_dream_sapphire" ]
 then
    # Create the xbin squashfs
    cp -a $XBIN $WORK/xbin/
