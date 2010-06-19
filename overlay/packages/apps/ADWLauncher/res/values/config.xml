@@ -17,9 +17,11 @@
 <resources>
     <bool name="config_desktopRotation">false</bool> 
     <bool name="config_drawerNew">false</bool>
+    <bool name="config_fadeDrawerLabels">true</bool>
 
     <integer name="config_desktopBounce">30</integer>
     <integer name="config_desktopSpeed">600</integer>
+    <integer name="config_drawer_color">0xA0000000</integer>
     <integer name="config_drawerAlpha">160</integer>
     <integer name="config_drawerColumnsPortrait">4</integer>
     <integer name="config_drawerRowsPortrait">3</integer>
