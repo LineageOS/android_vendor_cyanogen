@@ -29,6 +29,7 @@ CHANGELOG
 * Common: Improve BiDi text rendering - Dudy Kohen
 * Common: Fix WindowManagerService issue that could cause apps to get OOM killed out of order
 * Common: Busybox updated to 1.16.2 - Dylan Simon
+* Droid: New kernel with Compcache support. (Bekit)
 * D/S: Kernel tweaks to hopefully improve memory usage- enable TINY_RCU and deadline iosched (I can no longer reproduce the flash_image failures with this configuration)
 * D/S: Multitouch and swipe added to legacy gallery app
 * D/S: Long standing "disappearing icons" Launcher bug fixed - Glenn Maynard
