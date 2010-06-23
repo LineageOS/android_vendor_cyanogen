@@ -19,14 +19,14 @@ $(call inherit-product, vendor/cyanogen/products/cyanogen_hdpi.mk)
     
 PRODUCT_NAME := cyanogen_sholes
 PRODUCT_BRAND := motorola
-PRODUCT_DEVICE := sholes-open
+PRODUCT_DEVICE := sholes
 PRODUCT_MODEL := Droid
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_BUILD_PROP_OVERRIDES := BUILD_ID=ESE81 BUILD_DISPLAY_ID=ESE81 PRODUCT_NAME=voles TARGET_DEVICE=sholes BUILD_FINGERPRINT=verizon/voles/sholes/sholes:2.1-update1/ESE81/29593:user/release-keys PRODUCT_BRAND=verizon
 
 PRODUCT_COPY_FILES +=  \
     vendor/cyanogen/proprietary/RomManager.apk:system/app/RomManager.apk \
-    vendor/cyanogen/prebuilt/sholes-open/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/cyanogen/prebuilt/sholes/media/bootanimation.zip:system/media/bootanimation.zip
 
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
@@ -36,4 +36,4 @@ else
         ro.modversion=CyanogenMod-5.0.8-Droid
 endif
 
-include vendor/motorola/sholes-open/device_sholes.mk
+include vendor/motorola/sholes/device_sholes.mk
