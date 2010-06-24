@@ -36,7 +36,7 @@ ifdef CYANOGEN_NIGHTLY
         ro.modversion=CyanogenMod-5-$(shell date +%m%d%Y)-NIGHTLY-N1
 else
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-5.0.8-bravo-test7
+        ro.modversion=CyanogenMod-5.0.8-bravo
 endif
 
 include vendor/htc/bravo/device_bravo.mk
