@@ -85,6 +85,9 @@ WITH_HTCACOUSTIC_HACK:=true
 # Include backuptool
 TARGET_OTA_BACKUPTOOL=True
 
+PRODUCT_COPY_FILES +=  \
+    vendor/cyanogen/proprietary/RomManager.apk:system/app/RomManager.apk
+
 PRODUCT_COPY_FILES += \
     vendor/cyanogen/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/cyanogen/prebuilt/common/etc/e2fsck.conf:system/etc/e2fsck.conf \
