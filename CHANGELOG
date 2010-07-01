@@ -46,6 +46,7 @@ CHANGELOG
 * N1: Wireless driver update from Broadcom
 * N1: Use Froyo RIL and dormancy settings
 * N1: 720p video recording support from Charansingh & Wysie
+* Slide: New Device!
 
 ---- 5.0.7.1-N1
 * Common: Color picker and reset-to-defaults option for new UI customizations (Wysie)
