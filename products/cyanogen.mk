@@ -16,6 +16,8 @@ PRODUCT_POLICY := android.policy_phone
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.rommanager.developerid=cyanogenmod
 
+PRODUCT_SPECIFIC_DEFINES += TARGET_OTA_NO_RECOVERY=true
+
 PRODUCT_PACKAGES += \
     framework-res \
     Browser \

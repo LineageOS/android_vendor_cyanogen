@@ -33,7 +33,7 @@ ifdef CYANOGEN_NIGHTLY
         ro.modversion=CyanogenMod-5-$(shell date +%m%d%Y)-NIGHTLY-Inc
 else
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-5.0.8-test1-Inc
+        ro.modversion=CyanogenMod-5.0.8-test2-Inc
 endif
 
 include vendor/htc/inc/device_inc.mk
