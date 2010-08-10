@@ -19,8 +19,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_ID=FRF91 BUILD_DISPLAY_ID=FRF91 PRODUCT_NA
 TARGET_BUILD_TYPE=userdebug BUILD_VERSION_TAGS=release-keys
 PRIVATE_BUILD_DESC="heroc-user 2.2 FRF91 43546 release-keys"
 
-# Use Prebuilt kernel from heroC device tree
-PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=device/htc/heroc/kernel
+# Build Kernel
+#PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=device/htc/heroc/kernel
+PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=
+PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_DIR=kernel-heroc
+PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_CONFIG=cyanogen_heroc_defconfig
 
 # Extra overlay for Gallery3D orientation hack
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/dream_sapphire

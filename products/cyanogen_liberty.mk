@@ -21,7 +21,11 @@ PRIVATE_BUILD_DESC="liberty-user 2.2 FRF91 43546 release-keys"
 PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=$(TOP)/vendor/cyanogen/prelink-linux-arm-liberty.map
 
 # Build kernel
-PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=device/htc/liberty/kernel
+#PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=device/htc/liberty/kernel
+PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=
+PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_DIR=kernel-latteliberty
+PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_CONFIG=cyanogen_liberty_defconfig
+
 
 # Extra Passion overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/passion

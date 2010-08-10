@@ -18,8 +18,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_ID=FRF91 BUILD_DISPLAY_ID=FRF91 PRODUCT_NA
 # Extra Passion overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/passion
 
-# Build Kernel
+# Build Kernel - awaiting defconfig
 PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=device/htc/inc/kernel
+#PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=
+#PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_DIR=kernel-inc
+#PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_CONFIG=cyanogen_inc_defconfig
+
 
 #
 # Set ro.modversion

@@ -21,11 +21,10 @@ PRIVATE_BUILD_DESC="passion-user 2.2 FRF91 43546 release-keys"
 # Extra Vibrant overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/vibrant
 
-PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=device/vibrant/kernel
-
-# Build kernel
-#PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=
-#PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_DIR=kernel
+# Build kernel - avaiting defconfig
+PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=
+#PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=device/vibrant/kernel
+#PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_DIR=kernel-vibrant
 #PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_CONFIG=cyanogen_smdkc110_defconfig
 
 # Enable Windows Media

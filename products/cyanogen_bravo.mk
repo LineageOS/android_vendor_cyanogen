@@ -23,8 +23,12 @@ PRODUCT_PACKAGES += Torch
 # Extra Passion overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/bravo
 
-# Use a precompiled kernel until the merge with cm-kernel
-TARGET_PREBUILT_KERNEL = device/htc/bravo/kernel/kernel
+# Build Kernel
+#PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL = device/htc/bravo/kernel/kernel
+PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=
+PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_DIR=kernel-bravo
+PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_CONFIG=cyanogen_bravo_defconfig
+
 
 # Extra RIL settings
 PRODUCT_PROPERTY_OVERRIDES += \
