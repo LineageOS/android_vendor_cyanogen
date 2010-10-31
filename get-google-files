@@ -2,9 +2,9 @@
 import sys, random, urllib2, zipfile, StringIO, os
 from optparse import OptionParser
 
-FILENAME=["gapps-hdpi-20101008-signed.zip","gapps-mdpi-20101008-signed.zip","gapps-mdpi-tiny-20101008-signed.zip"]
+FILENAME=["gapps-hdpi-20101025-signed.zip","gapps-mdpi-20101020-signed.zip","gapps-mdpi-tiny-20101020-signed.zip"]
 VERSIONS=["hdpi","mdpi","mdpi-tiny"]
-MIRRORS=["http://mirror.teamdouche.net/get/various/",]
+MIRRORS=["http://mirror.teamdouche.net/get/various/","http://www.tap3w0rm.com/hosted/android/gapps/","http://samir.myftp.org/gapps/"]
 
 def device():
     print "usage: get-google-files -m [method] -v [version]"
@@ -13,11 +13,12 @@ def device():
 
 def download(version):
     try:
-        os.makedirs(os.path.join(os.path.dirname(__file__), "proprietary"))
+        os.makedirs("proprietary")
     except:
         pass
-    if len(MIRRORS) > 1:
-        i = random.randrange(0, len(MIRRORS)-1)
+    if len(MIRRORS) > 2:
+        random.seed()
+        i = random.randrange(0, len(MIRRORS))
     else:
         i = 0
 
@@ -60,3 +61,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
