@@ -16,7 +16,7 @@ def download(version):
         os.makedirs("proprietary")
     except:
         pass
-    if len(MIRRORS) > :
+    if len(MIRRORS) > 1:
         random.seed()
         i = random.randrange(0, len(MIRRORS))
     else:
