@@ -18,7 +18,7 @@ PRODUCT_MANUFACTURER := Motorola
 #
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-6-$(shell date +%m%d%Y)-NIGHTLY-Droid
+        ro.modversion=CyanogenMod-420-$(shell date +%m%d%Y)-NIGHTLY-Droid
 else
     PRODUCT_PROPERTY_OVERRIDES += \
         ro.modversion=CyanogenMod-6.1.0-RC3-Droid

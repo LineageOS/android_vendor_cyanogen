@@ -25,7 +25,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/vibrant
 #
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-6-$(shell date +%m%d%Y)-NIGHTLY-Vibrant
+        ro.modversion=CyanogenMod-420-$(shell date +%m%d%Y)-NIGHTLY-Vibrant
 else
     PRODUCT_PROPERTY_OVERRIDES += \
         ro.modversion=CyanogenMod-6.1.0-RC0-Vibrant

@@ -43,7 +43,7 @@ PRODUCT_COPY_FILES +=  \
 #
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-6-$(shell date +%m%d%Y)-NIGHTLY-buzz
+        ro.modversion=CyanogenMod-420-$(shell date +%m%d%Y)-NIGHTLY-buzz
 else
     PRODUCT_PROPERTY_OVERRIDES += \
         ro.modversion=CyanogenMod-6.1.0-RC0-buzz
