@@ -22,6 +22,7 @@ Maintainers:
 * Galaxy S (Vibrant): Scepterr, Wes Garner
 * Legend: Alexander Hofbauer
 * Vision: Cyanogen
+* X2 (DSTL1/N21/A320): crzyruski
 
 Translators:
 ------------
