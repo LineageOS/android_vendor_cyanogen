@@ -23,6 +23,7 @@ Maintainers:
 * Galaxy S (Vibrant): Scepterr, Wes Garner
 * Legend: Alexander Hofbauer
 * Vision: Cyanogen
+* Wildfire: Jacob Crawley
 
 CHANGELOG
 ---------
