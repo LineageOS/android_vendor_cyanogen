@@ -19,6 +19,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_ID=FRG83 BUILD_DISPLAY_ID=FRG83 PRODUCT_NA
 
 PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=$(TOP)/vendor/cyanogen/prelink-linux-arm-espresso.map
 
+PRODUCT_SPECIFIC_DEFINES += TARGET_USE_NASTY_PTHREAD_CREATE_HACK=true
+
 # Extra Espresso overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/espresso
 
@@ -34,7 +36,7 @@ ifdef CYANOGEN_NIGHTLY
         ro.modversion=CyanogenMod-6-$(shell date +%m%d%Y)-NIGHTLY-Slide
 else
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-6.1.0-RC1-Slide
+        ro.modversion=CyanogenMod-6.1.0-RC2-Slide
 endif
 
 #
