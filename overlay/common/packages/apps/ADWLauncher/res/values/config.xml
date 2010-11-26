@@ -15,7 +15,6 @@
 -->
 
 <resources>
-    <bool name="config_drawerNew">false</bool>
     <bool name="config_fadeDrawerLabels">true</bool>
     <bool name="config_nagScreen">false</bool>
     <bool name="config_new_selectors">true</bool>
