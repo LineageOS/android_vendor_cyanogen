@@ -37,7 +37,8 @@ app/GoogleCalendarSyncAdapter.apk
 app/GoogleContactsSyncAdapter.apk
 app/GoogleFeedback.apk
 app/GooglePartnerSetup.apk
-app/GoogleQuickSearchBox.apk app/QuickSearchBox.apk
+app/GoogleQuickSearchBox.apk
+app/QuickSearchBox.apk
 app/GoogleServicesFramework.apk
 app/googlevoice.apk
 app/HtcCopyright.apk
@@ -46,12 +47,15 @@ app/HtcSettings.apk
 app/kickback.apk
 app/LatinImeTutorial.apk
 app/Maps.apk
+app/MapsSapphire.apk
 app/MarketUpdater.apk
 app/MediaUploader.apk
 app/NetworkLocation.apk
 app/OneTimeInitializer.apk
 app/PassionQuickOffice.apk
-app/SetupWizard.apk app/Provision.apk
+app/Provision.apk
+app/Quickoffice.apk
+app/SetupWizard.apk
 app/soundback.apk
 app/Street.apk
 app/Talk.apk
