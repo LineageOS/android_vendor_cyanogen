@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAABX//92Y\u003d",
+        "filename": "prebuilt/common/bin/backuptool.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2010-12-01T20:23:00Z",
+      "side": 1,
+      "message": "Why are you changing this? The Google version is meant to replace the AOSP version during this process.",
+      "revId": "1a26f8374b3bf21c1809bc88527a6d889c06f746",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAABX//92c\u003d",
+        "filename": "prebuilt/common/bin/backuptool.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2010-12-01T20:23:00Z",
+      "side": 1,
+      "message": "Same as above.",
+      "revId": "1a26f8374b3bf21c1809bc88527a6d889c06f746",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
