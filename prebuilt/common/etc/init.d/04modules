@@ -6,5 +6,5 @@ MODULES="ipv6"
 
 for i in $MODULES;
 do
-    modprobe $i;
+    insmod /system/lib/modules/$i.ko;
 done
