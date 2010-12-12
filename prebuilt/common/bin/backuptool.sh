@@ -38,6 +38,7 @@ app/GoogleContactsSyncAdapter.apk
 app/GoogleFeedback.apk
 app/GooglePartnerSetup.apk
 app/GoogleQuickSearchBox.apk app/QuickSearchBox.apk
+app/GoogleReader.apk
 app/GoogleServicesFramework.apk
 app/googlevoice.apk
 app/HtcCopyright.apk
