@@ -46,6 +46,7 @@ CHANGELOG
 ### 6.1.1
 * Vision: Fix MMS over WiFi calling - Zinx
 * Vision: Add console=null to kernel command line - Adam Tygart
+* Droid: FRG83D fingerprint, translations, camera, torch fixes
 
 ### 6.1.0
 * Common: Update to Android 2.2.1
