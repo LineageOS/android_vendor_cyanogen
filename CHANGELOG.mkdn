@@ -54,6 +54,7 @@ CHANGELOG
 * Vision: Add console=null to kernel command line - Adam Tygart
 * Vision: Kernel to 2.6.32.27 and some performance tweaks
 * Droid: FRG83D fingerprint, translations, camera, torch fixes
+* Liberty: Prebuilt kernel update adding ext4 support and a nls_utf8 module
 
 ### 6.1.0
 * Common: Update to Android 2.2.1
