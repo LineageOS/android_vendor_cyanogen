@@ -6,7 +6,7 @@ add_lunch_combo cyanogen_bravoc-eng
 #add_lunch_combo cyanogen_espresso-eng
 #add_lunch_combo cyanogen_glacier-eng
 #add_lunch_combo cyanogen_harmony-eng
-#add_lunch_combo cyanogen_hero-eng
+add_lunch_combo cyanogen_hero-eng
 #add_lunch_combo cyanogen_heroc-eng
 add_lunch_combo cyanogen_inc-eng
 #add_lunch_combo cyanogen_legend-eng
