@@ -7,6 +7,9 @@ $(call inherit-product, vendor/cyanogen/products/common.mk)
 # Include GSM stuff
 $(call inherit-product, vendor/cyanogen/products/gsm.mk)
 
+# Include FM radio
+$(call inherit-product, vendor/cyanogen/products/fm_radio.mk)
+
 #
 # Setup device specific product configuration.
 #

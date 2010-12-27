@@ -4,6 +4,9 @@ $(call inherit-product, device/htc/bravoc/full_bravoc.mk)
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cyanogen/products/common.mk)
 
+# Include FM radio
+$(call inherit-product, vendor/cyanogen/products/fm_radio.mk)
+
 #
 # Setup device specific product configuration.
 #
