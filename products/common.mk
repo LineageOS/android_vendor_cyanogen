@@ -48,9 +48,11 @@ PRODUCT_PACKAGES += \
 #    DSPManager
 
 # Enable FM radio if supported
-#ifeq ($(BOARD_HAVE_FM_RADIO), true)
-#    PRODUCT_PACKAGES += FM
-#endif
+ifeq ($(BOARD_HAVE_FM_RADIO),true)
+    PRODUCT_PACKAGES += \
+        FM \
+        hcitool
+endif
 
 # Copy over the changelog to the device
 PRODUCT_COPY_FILES += \
