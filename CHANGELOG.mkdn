@@ -43,6 +43,9 @@ Translators:
 
 CHANGELOG
 ---------
+### 6.1.2
+* Supersonic: Support rev 004 hardware
+
 ### 6.1.1
 * Common: Add rotary lockscreen - Kmobs/cvpcs
 * Common: Updated translations - (everyone)
