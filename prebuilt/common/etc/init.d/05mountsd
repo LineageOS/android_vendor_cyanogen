@@ -1,6 +1,6 @@
 #!/system/bin/sh
 #
-# mount ext[234] partition from sd card
+# mount ext4 partition from sd card
 
 BB="logwrapper busybox";
 
@@ -9,22 +9,43 @@ then
     SD_EXT_DIRECTORY=/sd-ext;
 fi;
 
-# find first linux partition on SD card
-MMC=/dev/block/mmcblk0
+# find SD Card
+for i in `seq 0 9`;
+do
+    ISSD=`cat /sys/block/mmcblk$i/device/type`
+    if [ "$ISSD" = "SD" ];
+    then
+        SDCARD=/dev/block/mmcblk$i
+        break
+    fi
+done
 
 # wait for the device to settle
 COUNT=6;
-until [ -b "$MMC" ] || [ $COUNT -lt 1 ];
+until [ -b "$SDCARD" ] || [ $COUNT -lt 1 ];
 do
     sleep 1;
     COUNT=$((COUNT-1));
 done;
 
-if [ -b "$MMC" ];
+if [ -b "$SDCARD" ];
 then
-    FDISK="busybox fdisk"
-    PARTITION=`$FDISK -l $MMC | awk '/^\// && $5 == 83 {print $1;exit;}'`
-
+    # find sd-ext partition by label
+    for i in `seq 1 16`;
+    do
+        if [ -b ${SDCARD}p${i} ];
+        then
+            LABEL=`e2label ${SDCARD}p${i}`
+            if [ "$LABEL" = "sd-ext" ];
+            then
+                PARTITION=${SDCARD}p${i}
+                break
+            fi
+        else
+            break
+        fi
+    done
+    
     if [ -b "$PARTITION" ];
     then
         log -p i -t mountsd "Checking filesystems..";
@@ -41,9 +62,8 @@ then
         setprop cm.e2fsck.errors $e2fsk_exitcode;
         if [ "$e2fsk_exitcode" -lt 2 ];
         then
-   
             # mount and set perms
-            $BB mount -o noatime,nodiratime -t auto $PARTITION $SD_EXT_DIRECTORY;
+            $BB mount -o noatime,barrier=1,data=ordered,noauto_da_alloc -t ext4 $PARTITION $SD_EXT_DIRECTORY;
             if [ "$?" = 0 ];
             then
                 $BB chown 1000:1000 $SD_EXT_DIRECTORY;
