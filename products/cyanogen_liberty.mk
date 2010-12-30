@@ -23,9 +23,14 @@ PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=$(TOP)/vendor/cyanogen/prelink-
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
         ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-Liberty
-else
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7.0.0-RC0-Liberty
+else 
+    ifdef CYANOGEN_REAL
+        PRODUCT_PROPERTY_OVERRIDES += \
+            ro.modversion=CyanogenMod-7.0.0-RC0-Liberty
+    else
+        PRODUCT_PROPERTY_OVERRIDES += \
+            ro.modversion=CyanogenMod-7.0.0-RC0-Liberty-KANG
+    endif
 endif
 
 #

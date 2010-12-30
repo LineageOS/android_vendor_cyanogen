@@ -28,9 +28,14 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/espresso
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
         ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-Slide
-else
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7.0.0-RC0-Slide
+else 
+    ifdef CYANOGEN_REAL
+        PRODUCT_PROPERTY_OVERRIDES += \
+            ro.modversion=CyanogenMod-7.0.0-RC0-Slide
+    else
+        PRODUCT_PROPERTY_OVERRIDES += \
+            ro.modversion=CyanogenMod-7.0.0-RC0-Slide-KANG
+    endif
 endif
 
 #

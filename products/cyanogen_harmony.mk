@@ -22,9 +22,14 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/harmony
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
         ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-Harmony
-else
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7.0.0-RC0-Harmony
+else 
+    ifdef CYANOGEN_REAL
+        PRODUCT_PROPERTY_OVERRIDES += \
+            ro.modversion=CyanogenMod-7.0.0-RC0-Harmony
+    else
+        PRODUCT_PROPERTY_OVERRIDES += \
+            ro.modversion=CyanogenMod-7.0.0-RC0-Harmony-KANG
+    endif
 endif
 
 #
