@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAABn//+x8\u003d",
+        "filename": "prebuilt/common/etc/init.d/05mountsd",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 258
+      },
+      "writtenOn": "2010-12-31T19:31:15Z",
+      "side": 1,
+      "message": "SDCARD is empty at this point (or at least can be)",
+      "revId": "8a219a0698f055aa9d2213627b001f5e10e94318",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
