@@ -43,7 +43,8 @@ PRODUCT_PACKAGES += \
     CMParts \
     CMStats \
     CMUpdateNotify \
-    CMWallpapers 
+    CMWallpapers \
+    Pacman
 #    DSPManager
 
 # Extra tools in CyanogenMod
