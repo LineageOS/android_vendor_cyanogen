@@ -18,4 +18,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_supersonic.mk \
     $(LOCAL_DIR)/cyanogen_vibrant.mk \
     $(LOCAL_DIR)/cyanogen_vision.mk \
+    $(LOCAL_DIR)/cyanogen_tattoo.mk \
     $(LOCAL_DIR)/cyanogen_z71.mk
