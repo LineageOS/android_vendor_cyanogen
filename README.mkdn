@@ -3,12 +3,9 @@ CyanogenMod
 
 Submitting Patches
 ------------------
-Patches are always welcome!  Please send pull requests with your patches!  If at all possible please rebase your
-repository before sending a pull request.  You can do this by using the following command:
+Patches are always welcome!  Please submit your patches via CyanogenMod Gerrit!
+You can do this by using the command: repo upload.  For help on using this tool, use this command: repo help upload
 
-    git pull --rebase git://github.com/CyanogenMod/path_to_project.git froyo
-
-This makes accepting patches MUCH easier for our comitters.
 
 Getting Started
 ---------------
@@ -18,7 +15,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b froyo
+    repo init -u git://github.com/CyanogenMod/android.git -b gingerbread
 
 Then to sync up:
 
