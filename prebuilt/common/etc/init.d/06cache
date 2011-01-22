@@ -1,0 +1,14 @@
+#!/system/bin/sh
+#
+# Force DOWNLOAD_CACHE to /data/local/tmp/ if cache is too small
+#
+
+CACHESIZE=$(df -k /cache|tail -n1|tr -s ' '|cut -d ' ' -f2)
+if [ $CACHESIZE -lt 6000 ]
+then
+  install -m 771 -o 1000 -g 2001 -d /data/local/tmp
+  export ANDROID_CACHE=/data/local/tmp
+  export DOWNLOAD_CACHE=/data/local/tmp
+fi
+
+exit 0
