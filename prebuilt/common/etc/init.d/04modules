@@ -2,7 +2,7 @@
 #
 # Load any extra modules
 
-MODULES="ipv6"
+MODULES=""
 
 for i in $MODULES;
 do
