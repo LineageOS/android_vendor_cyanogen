@@ -1,0 +1,54 @@
+#!/bin/bash
+
+export TOL="$PWD/vendor/cyanogen/tools/"
+export LOC="$PWD/out/target/product/leo"
+export YAF="$PWD/out/host/linux-x86/bin/unyaffs"
+export UBI="$PWD/out/host/linux-x86/bin/unpackbootimg"
+export SYSin="$PWD/out/target/product/leo/system.img"
+export BOOTin="$PWD/out/target/product/leo/boot.img"
+
+if [[ ! -f $SYSin ]] ; then 
+clear
+echo system.img not found
+exit 1
+fi
+
+echo "Processing IMG file(s)"
+mkdir -p "$LOC/temp/boot"
+mkdir -p "$LOC/temp/system"
+
+
+if [[ -f $BOOTin ]] ; then
+echo making boot
+cd "$LOC/temp/boot"
+cp -a "$LOC/boot/" "$LOC/temp/"
+fi
+
+cd "$LOC/temp/system"
+echo extract system
+"$YAF" "$SYSin" > /dev/null
+[[ ! -f $BOOTin ]] && mv "$LOC"/temp/system/zImage "$LOC"/temp/boot/zImage > /dev/null
+[[ ! -f $BOOTin ]] && mv "$LOC"/temp/system/initrd.gz "$LOC"/temp/boot/initrd.gz > /dev/null
+
+cd "$LOC/temp/system"
+find * -type l -lname '*' -printf 'rm $(readlink %p | sed s/*/qa/) $(echo %p | sed s/*/qa/)\n' > script.sh
+chmod a+x script.sh
+./script.sh
+rm script.sh
+
+echo Zipping Package zip
+cd "$LOC"
+rm -rf "$LOC"/$TARGET_PRODUCT-ota-$TARGET_BUILD_VARIANT.$LOGNAME.zip
+mkdir -p "$LOC"/temp/META-INF
+cp -rf "$TOL"/update/META-INF/* "$LOC"/temp/META-INF/. > /dev/null
+cd temp
+zip -9yr "$LOC"/$TARGET_PRODUCT-ota-$TARGET_BUILD_VARIANT.$LOGNAME.zip * > /dev/null
+cd -
+
+echo Cleanup...
+rm -rf "$LOC"/temp/boot
+rm -rf "$LOC"/temp/META-INF
+rm -rf "$LOC"/temp/system
+
+
+echo done

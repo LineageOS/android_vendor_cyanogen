@@ -1,0 +1,4 @@
+modver=CyanogenMod-6-12172010-NIGHTLY-Desire
+post-build=htc_wwe/htc_bravo/bravo/bravo:2.2/FRF91/226611:user/release-keys
+post-timestamp=0
+pre-device=bravo
