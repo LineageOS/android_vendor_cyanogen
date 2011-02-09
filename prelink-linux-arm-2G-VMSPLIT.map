@@ -1,0 +1,160 @@
+# 0x80000000 - 0xffffffff Kernel
+# 0x70100000 - 0x7fffffff Thread 0 Stack
+# 0x70000000 - 0x700fffff Linker
+# 0x60000000 - 0x6fffffff Prelinked System Libraries
+# 0x50000000 - 0x5fffffff Prelinked App Libraries
+
+
+
+# core system libraries
+libdl.so			   0x6FF00000
+libc.so	   	 		   0x6FD00000
+libstdc++.so			   0x6FC00000
+libm.so	   			   0x6FB00000
+liblog.so			   0x6FA00000
+libcutils.so	 		   0x6F900000
+libthread_db.so	 		   0x6F800000
+libz.so	   			   0x6F700000
+libssl.so			   0x6F400000
+libcrypto.so			   0x6F000000
+libsysutils.so	 		   0x6EF00000
+
+# bluetooth
+liba2dp.so			   0x6EE00000
+audio.so			   0x6ED00000
+input.so			   0x6EC00000
+libbluetoothd.so	   	   0x6EA00000
+libbluedroid.so	   		   0x6E900000
+libbluetooth.so			   0x6E800000
+libdbus.so			   0x6E700000
+
+# extended system libraries
+libril.so	 		   0x6E600000
+libreference-ril.so		   0x6E500000
+libwpa_client.so		   0x6E400000
+libnetutils.so	 		   0x6E300000
+
+# core dalvik runtime support
+libandroid_servers.so		   0x6E200000
+libicuuc.so			   0x6DE00000
+libicui18n.so	 	 	   0x6D900000
+libandroid_runtime.so		   0x6D300000
+libnativehelper.so		   0x6D100000
+libdvm.so	 		   0x6CA00000
+
+# graphics
+libpixelflinger.so		   0x6C900000
+libsurfaceflinger_client.so	   0x6C700000
+libsurfaceflinger.so	 	   0x6C500000
+libGLES_android.so	   	   0x6C400000
+
+
+libGLESv1_CM.so			   0x6C200000
+libGLESv2.so			   0x6C100000
+libEGL.so			   0x6BE00000
+libETC1.so			   0x6BD00000
+
+libacc.so	 		   0x6BC00000
+
+libexif.so	 		   0x6BB00000
+libcamera_client.so		   0x6BA80000
+libui.so			   0x6B900000
+libgui.so               	   0x6B800000 # [~1M]
+libskia.so			   0x6B100000
+librs_jni.so			   0x6B000000
+libRS.so	 		   0x69E00000
+libandroid.so    		   0x69D80000 # [<64K]
+libjnigraphics.so		   0x69D00000
+libskiagl.so			   0x69C00000
+
+# audio
+libFLAC.so			   0x69B00000
+libaudiopolicy.so		   0x69A00000
+libeffects.so        		   0x69980000 # [<64K]
+libaudioeffect_jni.so  		   0x69900000 # [<64K]
+libsoundpool.so			   0x69800000
+libaudio.so			   0x69700000
+libgps.so	 		   0x69600000
+libsonivox.so			   0x69500000
+libvorbisidec.so		   0x69400000
+libmedia_jni.so			   0x69300000
+libmediaplayerservice.so	   0x69200000
+libmedia.so			   0x69000000
+libFFTEm.so			   0x68F00000
+libSR_AudioIn.so		   0x68E00000
+libaudioflinger.so		   0x68D00000
+
+# assorted system libraries
+libsqlite.so			   0x68B00000
+libexpat.so			   0x68A00000
+libwebcore.so			   0x68300000
+libbinder.so			   0x68200000
+libutils.so			   0x68100000
+libcameraservice.so		   0x68000000
+libhardware.so			   0x67F00000
+libhardware_legacy.so		   0x67E00000
+libsystem_server.so		   0x67C00000
+libcamera.so			   0x67900000
+liboemcamera.so			   0x67700000
+libdiskconfig.so		   0x67600000
+libemoji.so	  		   0x67500000
+libjni_latinime.so		   0x67400000
+libjni_pinyinime.so		   0x67300000
+libttssynthproxy.so		   0x67200000
+libttspico.so			   0x67000000
+
+# pv libraries
+libomx_sharedlibrary.so	  	   0x66D00000
+libopencore_download.so	   	   0x66C00000
+libopencore_downloadreg.so	   0x66B00000
+libopencore_net_support.so	   0x66800000
+libopencore_rtsp.so	 	   0x66200000
+libopencore_rtspreg.so	  	   0x66100000
+libopencore_author.so	   	   0x65D00000
+libomx_aacdec_sharedlibrary.so	   0x65B00000
+libomx_amrdec_sharedlibrary.so	   0x65A00000
+libomx_amrenc_sharedlibrary.so	   0x65900000
+libomx_avcdec_sharedlibrary.so	   0x65800000
+libomx_m4vdec_sharedlibrary.so	   0x65600000
+libomx_mp3dec_sharedlibrary.so	   0x65400000
+libopencore_mp4local.so		   0x65200000
+libopencore_mp4localreg.so	   0x65100000
+libopencore_player.so	  	   0x64800000
+libOmxCore.so		  	   0x64600000
+libOmxMpeg4Dec.so            	   0x64500000 # [~1M]
+libOmxH264Dec.so          	   0x64400000 # [~1M]
+libOmxVidEnc.so             	   0x64300000 # [~1M]
+libopencorehw.so	   	   0x64200000
+libOmxVdec.so              	   0x64100000 # [~1M]
+libmm-omxcore.so   	           0x64000000 # [<64K]
+
+# pv libraries
+libopencore_common.so	 	   0x63900000
+libqcomm_omx.so	    		   0x63800000
+
+# stagefright libraries
+libstagefright_amrnb_common.so	   0x63700000
+libstagefright_avc_common.so	   0x63600000
+libstagefright_color_conversion.so 0x63500000
+libstagefright_omx.so	           0x63400000
+libstagefrighthw.so                0x63300000 # [~1M]
+libstagefright.so	           0x62F00000
+
+# libraries for specific hardware
+libreference-cdma-sms.so	   0x62A00000
+
+# libraries for specific apps or temporary libraries
+libwbxml_jni.so	                   0x5EE00000
+libxml2wbxml.so	  	  	   0x5EB00000
+libdrm1.so	  		   0x5EA00000
+libdrm1_jni.so	  		   0x5E900000
+libembunit.so         		   0x5E300000 # [<64K]
+libctest.so			   0x5DD00000
+librpc.so			   0x5DB00000
+libsrec_jni.so			   0x5D800000
+libjpeg.so			   0x5D700000
+libiprouteutil.so		   0x5D600000
+libnetlink.so	 		   0x5D500000
+libpagemap.so	 		   0x5D400000
+libstlport.so	 		   0x5D100000
+libhostapd_client.so		   0x5C900000
