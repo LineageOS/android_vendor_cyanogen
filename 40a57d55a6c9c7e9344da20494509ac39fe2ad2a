@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAACX//+rU\u003d",
+        "filename": "overlay/ldpi/packages/apps/Settings/res/layout/twelve_key_entry.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 176
+      },
+      "writtenOn": "2011-02-17T22:29:46Z",
+      "side": 1,
+      "message": "remove spaces",
+      "revId": "40a57d55a6c9c7e9344da20494509ac39fe2ad2a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
