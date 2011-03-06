@@ -25,6 +25,9 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/espresso
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
+# TI FM radio
+$(call inherit-product, vendor/cyanogen/products/ti_fm_radio.mk)
+
 # Build GanOptimizer
 PRODUCT_PACKAGES += GanOptimizer
 
