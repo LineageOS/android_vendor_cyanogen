@@ -5,6 +5,7 @@ add_lunch_combo cyanogen_bravoc-eng
 add_lunch_combo cyanogen_buzz-eng
 add_lunch_combo cyanogen_click-eng
 add_lunch_combo cyanogen_crespo-eng
+add_lunch_combo cyanogen_desirec-eng
 add_lunch_combo cyanogen_dream_sapphire-eng
 add_lunch_combo cyanogen_encore-eng
 add_lunch_combo cyanogen_espresso-eng
@@ -24,6 +25,5 @@ add_lunch_combo cyanogen_supersonic-eng
 add_lunch_combo cyanogen_vega-eng
 add_lunch_combo cyanogen_vision-eng
 add_lunch_combo cyanogen_z71-eng
-
 
 PATH=$PATH:$PWD/vendor/cyanogen/tools ; export PATH
