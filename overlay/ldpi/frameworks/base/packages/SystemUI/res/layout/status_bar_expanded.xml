@@ -44,7 +44,7 @@
             android:orientation="horizontal"
             android:gravity="center_vertical"
         >
-            <com.android.systemui.statusbar.CarrierLabel
+            <!--<com.android.systemui.statusbar.CarrierLabel
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -53,23 +53,8 @@
                 android:layout_gravity="center_vertical"
                 android:paddingBottom="1dp"
                 android:paddingLeft="4dp"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="#ffdfdfdf"
-                />
-            <TextView android:id="@+id/clear_all_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_marginTop="4dp"
-                android:layout_marginBottom="1dp"
-                android:textSize="14sp"
-                android:textColor="#ff000000"
-                android:text="@string/status_bar_clear_all_button"
-                style="?android:attr/buttonStyle"
-                android:paddingLeft="15dp"
-                android:paddingRight="15dp"
-                android:background="@android:drawable/btn_default_small"
-            />
+                android:textAppearance="@style/TextAppearance.StatusBar.CarrierLabel"
+                />-->
         </LinearLayout>
     </LinearLayout>
 
@@ -128,6 +113,20 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     />
+                <TextView android:id="@+id/clear_all_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="1dp"
+                    android:textSize="14sp"
+                    android:textColor="#ff000000"
+                    android:text="@string/status_bar_clear_all_button"
+                    style="?android:attr/buttonStyle"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:background="@android:drawable/btn_default_small"
+                />
             </com.android.systemui.statusbar.NotificationLinearLayout>
         </ScrollView>
 
