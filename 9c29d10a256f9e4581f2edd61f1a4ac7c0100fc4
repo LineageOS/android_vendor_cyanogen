@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAADX//+3Q\u003d",
+        "filename": "overlay/ldpi/frameworks/base/packages/SystemUI/res/layout/status_bar_expanded_no_carrier.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 176
+      },
+      "writtenOn": "2011-03-27T15:05:37Z",
+      "side": 1,
+      "message": "remove end of line white spaces",
+      "revId": "9c29d10a256f9e4581f2edd61f1a4ac7c0100fc4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAADX//+3U\u003d",
+        "filename": "overlay/ldpi/frameworks/base/packages/SystemUI/res/layout/status_bar_expanded_no_carrier.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 176
+      },
+      "writtenOn": "2011-03-27T15:05:37Z",
+      "side": 1,
+      "message": "remove white spaces",
+      "revId": "9c29d10a256f9e4581f2edd61f1a4ac7c0100fc4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
