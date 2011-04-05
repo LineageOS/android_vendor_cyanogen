@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAADX//+LE\u003d",
+        "filename": "vendorsetup.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 27
+      },
+      "writtenOn": "2011-04-05T08:26:31Z",
+      "side": 1,
+      "message": "Move it up one line so that it\u0027s alphabetical please :)",
+      "revId": "14e70bf34981d3afe17fb267cb7138bd4b12c396",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
