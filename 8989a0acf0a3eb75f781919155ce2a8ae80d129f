@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAADX//+Fs\u003d",
+        "filename": "overlay/ldpi/frameworks/base/core/res/res/values/styles.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 27
+      },
+      "writtenOn": "2011-04-06T05:28:53Z",
+      "side": 1,
+      "message": "Style: why are these two lines set via 14.0 instead of just 14?",
+      "revId": "8989a0acf0a3eb75f781919155ce2a8ae80d129f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
