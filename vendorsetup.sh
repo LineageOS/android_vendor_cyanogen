@@ -11,7 +11,8 @@ add_lunch_combo cyanogen_encore-eng
 add_lunch_combo cyanogen_espresso-eng
 add_lunch_combo cyanogen_generic-eng
 add_lunch_combo cyanogen_glacier-eng
-add_lunch_combo cyanogen_harmony-eng
+add_lunch_combo cyanogen_harmony_t8-eng
+add_lunch_combo cyanogen_harmony_gtablet-eng
 add_lunch_combo cyanogen_hero-eng
 add_lunch_combo cyanogen_heroc-eng
 add_lunch_combo cyanogen_inc-eng
