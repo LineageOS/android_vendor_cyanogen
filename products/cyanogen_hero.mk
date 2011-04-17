@@ -5,23 +5,23 @@ else
 $(call inherit-product, device/htc/hero/full_hero.mk)
 endif
 
-# Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cyanogen/products/common_full.mk)
+# Inherit some common kmobsmod stuff.
+$(call inherit-product, vendor/kmobs/products/common_full.mk)
 
 # Include GSM stuff
-$(call inherit-product, vendor/cyanogen/products/gsm.mk)
+$(call inherit-product, vendor/kmobs/products/gsm.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cyanogen_hero
+PRODUCT_NAME := kmobs_hero
 PRODUCT_BRAND := htc
 PRODUCT_DEVICE := hero
 PRODUCT_MODEL := Hero
 PRODUCT_MANUFACTURER := HTC
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_ID=GRH78 BUILD_DISPLAY_ID=GRH78C BUILD_FINGERPRINT=google/soju/crespo:2.3.1/GRH78/85442:user/release-keys PRIVATE_BUILD_DESC="soju-user 2.3.1 GRH78 85442 release-keys"
 
-PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=$(TOP)/vendor/cyanogen/prelink-linux-arm-hero.map
+PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=$(TOP)/vendor/kmobs/prelink-linux-arm-hero.map
 
 #
 # Set ro.modversion
@@ -43,4 +43,4 @@ endif
 # Copy passion specific prebuilt files
 #
 PRODUCT_COPY_FILES +=  \
-    vendor/cyanogen/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/kmobs/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip

@@ -1,23 +1,23 @@
 # Inherit AOSP device configuration for z71.
 $(call inherit-product, device/commtiva/z71/device_z71.mk)
 
-# Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cyanogen/products/common_full.mk)
+# Inherit some common kmobsmod stuff.
+$(call inherit-product, vendor/kmobs/products/common_full.mk)
 
 # Include GSM stuff
-$(call inherit-product, vendor/cyanogen/products/gsm.mk)
+$(call inherit-product, vendor/kmobs/products/gsm.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cyanogen_z71
+PRODUCT_NAME := kmobs_z71
 PRODUCT_BRAND := commtiva
 PRODUCT_DEVICE := z71
 PRODUCT_MODEL := Z71
 PRODUCT_MANUFACTURER := Commtiva
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=commtiva_z71 BUILD_ID=GRI40 BUILD_DISPLAY_ID=GRI40 BUILD_FINGERPRINT=google/passion/passion:2.3.3/GRI40/102588:user/release-keys PRIVATE_BUILD_DESC="passion-user 2.3.3 GRI40 102588 release-keys"
 
-#PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=$(TOP)/vendor/cyanogen/prelink-linux-arm-z71.map
+#PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=$(TOP)/vendor/kmobs/prelink-linux-arm-z71.map
 
 #
 # Set ro.modversion
@@ -39,4 +39,4 @@ endif
 # Copy legend specific prebuilt files
 #
 PRODUCT_COPY_FILES +=  \
-    vendor/cyanogen/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/kmobs/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip

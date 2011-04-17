@@ -1,16 +1,16 @@
 # Inherit AOSP device configuration for buzz.
 $(call inherit-product, device/htc/buzz/buzz.mk)
 
-# Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cyanogen/products/common_full.mk)
+# Inherit some common kmobsmod stuff.
+$(call inherit-product, vendor/kmobs/products/common_full.mk)
 
 # Include GSM stuff
-$(call inherit-product, vendor/cyanogen/products/gsm.mk)
+$(call inherit-product, vendor/kmobs/products/gsm.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cyanogen_buzz
+PRODUCT_NAME := kmobs_buzz
 PRODUCT_BRAND := htc_wwe
 PRODUCT_DEVICE := buzz
 PRODUCT_MODEL := HTC Wildfire
@@ -21,17 +21,17 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_buzz BUILD_ID=GRI40 BUILD_DISPL
 PRODUCT_LOCALES += ldpi mdpi
 
 # Extra overlay for LDPI
-PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/ldpi
+PRODUCT_PACKAGE_OVERLAYS += vendor/kmobs/overlay/ldpi
 
 # Broadcom FM radio
-$(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
+$(call inherit-product, vendor/kmobs/products/bcm_fm_radio.mk)
 
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
 # Copy bootanimation
 PRODUCT_COPY_FILES +=  \
-    vendor/cyanogen/prebuilt/ldpi/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/kmobs/prebuilt/ldpi/media/bootanimation.zip:system/media/bootanimation.zip
 
 #
 # Set ro.modversion

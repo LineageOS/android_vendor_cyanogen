@@ -1,16 +1,16 @@
 # Inherit AOSP device configuration for geeksphone one.
 $(call inherit-product, device/geeksphone/one/one.mk)
 
-# Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cyanogen/products/common.mk)
+# Inherit some common kmobsmod stuff.
+$(call inherit-product, vendor/kmobs/products/common.mk)
 
 # Include GSM stuff
-$(call inherit-product, vendor/cyanogen/products/gsm.mk)
+$(call inherit-product, vendor/kmobs/products/gsm.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cyanogen_one
+PRODUCT_NAME := kmobs_one
 PRODUCT_BRAND := geeksphone
 PRODUCT_DEVICE := one
 PRODUCT_MODEL := Geeksphone ONE
@@ -40,4 +40,4 @@ endif
 # Copy GPO specific prebuilt files
 #
 PRODUCT_COPY_FILES +=  \
-    vendor/cyanogen/prebuilt/ldpi/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/kmobs/prebuilt/ldpi/media/bootanimation.zip:system/media/bootanimation.zip

@@ -1,14 +1,14 @@
 # Inherit AOSP device configuration for click.
 $(call inherit-product, device/htc/click/click.mk)
 
-# Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cyanogen/products/common_full.mk)
+# Inherit some common kmobsmod stuff.
+$(call inherit-product, vendor/kmobs/products/common_full.mk)
 
 # Include GSM stuff
-$(call inherit-product, vendor/cyanogen/products/gsm.mk)
+$(call inherit-product, vendor/kmobs/products/gsm.mk)
 
 # Broadcom FM radio
-$(call inherit-product, vendor/cyanogen/products/ti_fm_radio.mk)
+$(call inherit-product, vendor/kmobs/products/ti_fm_radio.mk)
 
 # Build kernel
 PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=device/htc/click/kernel
@@ -16,7 +16,7 @@ PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=device/htc/click/kernel
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cyanogen_click
+PRODUCT_NAME := kmobs_click
 PRODUCT_BRAND := htc_wwe
 PRODUCT_DEVICE := click
 PRODUCT_MODEL := HTC click
@@ -27,11 +27,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_click BUILD_ID=GRI40 BUILD_DISP
 PRODUCT_LOCALES += ldpi mdpi
 
 # Extra Passion overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/ldpi
+PRODUCT_PACKAGE_OVERLAYS += vendor/kmobs/overlay/ldpi
 
 # Boot animation
 PRODUCT_COPY_FILES +=  \
-    vendor/cyanogen/prebuilt/ldpi/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/kmobs/prebuilt/ldpi/media/bootanimation.zip:system/media/bootanimation.zip
 
 #
 # Set ro.modversion

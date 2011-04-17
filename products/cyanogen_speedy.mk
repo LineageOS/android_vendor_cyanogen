@@ -1,13 +1,13 @@
 # Inherit AOSP device configuration for speedy.
 $(call inherit-product, device/htc/speedy/speedy.mk)
 
-# Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cyanogen/products/common_full.mk)
+# Inherit some common kmobsmod stuff.
+$(call inherit-product, vendor/kmobs/products/common_full.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cyanogen_speedy
+PRODUCT_NAME := kmobs_speedy
 PRODUCT_BRAND := sprint
 PRODUCT_DEVICE := speedy
 PRODUCT_MODEL := PG06100
@@ -17,16 +17,16 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_ID=FRF91 BUILD_DISPLAY_ID=GRH78C PRODUCT_N
 # Build kernel
 #PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=
 #PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_DIR=kernel-msm
-#PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_CONFIG=cyanogen_speedy_defconfig
+#PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_CONFIG=kmobs_speedy_defconfig
 
 # Extra Supersonic overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/speedy
+PRODUCT_PACKAGE_OVERLAYS += vendor/kmobs/overlay/speedy
 
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
 # Broadcom FM radio
-$(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
+$(call inherit-product, vendor/kmobs/products/bcm_fm_radio.mk)
 
 #
 # Set ro.modversion
@@ -48,4 +48,4 @@ endif
 # Copy passion specific prebuilt files
 #
 PRODUCT_COPY_FILES +=  \
-    vendor/cyanogen/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/kmobs/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip

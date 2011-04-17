@@ -1,17 +1,17 @@
 # Inherit AOSP device configuration for zeppelin.
 $(call inherit-product, device/motorola/zeppelin/zeppelin.mk)
 
-# Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cyanogen/products/common_full.mk)
+# Inherit some common kmobsmod stuff.
+$(call inherit-product, vendor/kmobs/products/common_full.mk)
 
-$(call inherit-product vendor/cyanogen/products/bcm_fm_radio.mk)
+$(call inherit-product vendor/kmobs/products/bcm_fm_radio.mk)
 
-$(call inherit-product, vendor/cyanogen/products/gsm.mk)
+$(call inherit-product, vendor/kmobs/products/gsm.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cyanogen_zeppelin
+PRODUCT_NAME := kmobs_zeppelin
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := zeppelin
 PRODUCT_MODEL := CLIQ XT
@@ -37,9 +37,9 @@ endif
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=zeppelin TARGET_DEVICE=zeppelin BUILD_ID=GRH78 BUILD_DISPLAY_ID=GRH78C BUILD_FINGERPRINT=google/soju/crespo:2.3.1/GRH78/85442:user/release-keys PRIVATE_BUILD_DESC="soju-user 2.3.1 GRH78 85442 release-keys"
 
 PRODUCT_COPY_FILES +=  \
-    vendor/cyanogen/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/kmobs/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip
 
-PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/zeppelin
+PRODUCT_PACKAGE_OVERLAYS += vendor/kmobs/overlay/zeppelin
 
 # Add the FM app
 PRODUCT_PACKAGES += FM

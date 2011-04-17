@@ -1,16 +1,16 @@
 # Inherit AOSP device configuration for dream_sapphire.
 $(call inherit-product, device/htc/dream_sapphire/full_dream_sapphire.mk)
 
-# Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cyanogen/products/common.mk)
+# Inherit some common kmobsmod stuff.
+$(call inherit-product, vendor/kmobs/products/common.mk)
 
 # Include GSM-only stuff
-$(call inherit-product, vendor/cyanogen/products/gsm.mk)
+$(call inherit-product, vendor/kmobs/products/gsm.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cyanogen_dream_sapphire
+PRODUCT_NAME := kmobs_dream_sapphire
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := dream_sapphire
 PRODUCT_MODEL := Dream/Sapphire
@@ -20,14 +20,14 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_ID=FRG83 BUILD_DISPLAY_ID=GRI40 BUILD_FING
 # Build kernel
 #PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=
 #PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_DIR=kernel-msm
-#PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_CONFIG=cyanogen_msm_defconfig
+#PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_CONFIG=kmobs_msm_defconfig
 
 # Extra DS overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/dream_sapphire
+PRODUCT_PACKAGE_OVERLAYS += vendor/kmobs/overlay/dream_sapphire
 
 # This file is used to install the correct audio profile when booted
 PRODUCT_COPY_FILES += \
-    vendor/cyanogen/prebuilt/dream_sapphire/etc/init.d/02audio_profile:system/etc/init.d/02audio_profile
+    vendor/kmobs/prebuilt/dream_sapphire/etc/init.d/02audio_profile:system/etc/init.d/02audio_profile
 
 # Enable Compcache by default on D/S
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -56,6 +56,6 @@ WITH_DS_HTCACOUSTIC_HACK := true
 # Copy DS specific prebuilt files
 #
 PRODUCT_COPY_FILES +=  \
-    vendor/cyanogen/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip \
-    vendor/cyanogen/prebuilt/dream_sapphire/etc/AudioPara_dream.csv:system/etc/AudioPara_dream.csv \
-    vendor/cyanogen/prebuilt/dream_sapphire/etc/AudioPara_sapphire.csv:system/etc/AudioPara_sapphire.csv
+    vendor/kmobs/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip \
+    vendor/kmobs/prebuilt/dream_sapphire/etc/AudioPara_dream.csv:system/etc/AudioPara_dream.csv \
+    vendor/kmobs/prebuilt/dream_sapphire/etc/AudioPara_sapphire.csv:system/etc/AudioPara_sapphire.csv

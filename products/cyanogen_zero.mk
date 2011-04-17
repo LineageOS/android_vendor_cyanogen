@@ -1,16 +1,16 @@
 # Inherit AOSP device configuration for zero.
 $(call inherit-product, device/geeksphone/zero/zero.mk)
 
-# Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cyanogen/products/common_full.mk)
+# Inherit some common kmobsmod stuff.
+$(call inherit-product, vendor/kmobs/products/common_full.mk)
 
 # Include GSM stuff
-$(call inherit-product, vendor/cyanogen/products/gsm.mk)
+$(call inherit-product, vendor/kmobs/products/gsm.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cyanogen_zero
+PRODUCT_NAME := kmobs_zero
 PRODUCT_BRAND := geeksphone
 PRODUCT_DEVICE := zero
 PRODUCT_MODEL := Geeksphone ZERO
@@ -38,4 +38,4 @@ endif
 # Copy legend specific prebuilt files
 #
 PRODUCT_COPY_FILES +=  \
-    vendor/cyanogen/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/kmobs/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip

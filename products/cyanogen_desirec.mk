@@ -1,16 +1,16 @@
 # Inherit AOSP device configuration for desirec.
 $(call inherit-product, device/htc/desirec/device_desirec.mk)
 
-# Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cyanogen/products/common_full.mk)
+# Inherit some common kmobsmod stuff.
+$(call inherit-product, vendor/kmobs/products/common_full.mk)
 
 # Inherit apns list from common
-$(call inherit-product, vendor/cyanogen/products/gsm.mk)
+$(call inherit-product, vendor/kmobs/products/gsm.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cyanogen_desirec
+PRODUCT_NAME := kmobs_desirec
 PRODUCT_BRAND := verizon
 PRODUCT_DEVICE := desirec
 PRODUCT_MODEL := ERIS
@@ -21,7 +21,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_ID=GRI40 BUILD_DISPLAY_ID=GRI40 BUILD_FING
 PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=device/htc/desirec/kernel
 
 # Extra overlay for Gallery3D orientation hack
-PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/heroc
+PRODUCT_PACKAGE_OVERLAYS += vendor/kmobs/overlay/heroc
 
 # Enable Windows Media
 WITH_WINDOWS_MEDIA := true
@@ -45,4 +45,4 @@ endif
 # Copy dream/sapphire specific prebuilt files
 #
 PRODUCT_COPY_FILES +=  \
-    vendor/cyanogen/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/kmobs/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip

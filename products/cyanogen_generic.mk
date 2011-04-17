@@ -1,14 +1,14 @@
 # Inherit AOSP device configuration for generic target
 $(call inherit-product, build/target/product/full.mk)
 
-# Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cyanogen/products/common_full.mk)
+# Inherit some common kmobsmod stuff.
+$(call inherit-product, vendor/kmobs/products/common_full.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cyanogen_generic
-PRODUCT_BRAND := cyanogenmod
+PRODUCT_NAME := kmobs_generic
+PRODUCT_BRAND := kmobsmod
 PRODUCT_DEVICE := generic
 PRODUCT_MODEL := CyanogenMod
 PRODUCT_MANUFACTURER := CyanogenMod

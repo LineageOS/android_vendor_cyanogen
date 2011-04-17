@@ -1,16 +1,16 @@
 # Inherit device configuration for vision.
 $(call inherit-product, device/htc/vision/vision.mk)
 
-# Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cyanogen/products/common_full.mk)
+# Inherit some common kmobsmod stuff.
+$(call inherit-product, vendor/kmobs/products/common_full.mk)
 
 # Include GSM stuff
-$(call inherit-product, vendor/cyanogen/products/gsm.mk)
+$(call inherit-product, vendor/kmobs/products/gsm.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cyanogen_vision
+PRODUCT_NAME := kmobs_vision
 PRODUCT_BRAND := tmobile
 PRODUCT_DEVICE := vision
 PRODUCT_MODEL := HTC Vision
@@ -20,10 +20,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_vision BUILD_ID=FRF91 BUILD_DIS
 # Build kernel
 #PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=
 #PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_DIR=kernel-msm
-#PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_CONFIG=cyanogen_vision_defconfig
+#PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_CONFIG=kmobs_vision_defconfig
 
 # Extra Vision overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/vision
+PRODUCT_PACKAGE_OVERLAYS += vendor/kmobs/overlay/vision
 
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
@@ -32,7 +32,7 @@ PRODUCT_PACKAGES += Torch
 PRODUCT_PACKAGES += GanOptimizer
 
 # Broadcom FM radio
-$(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
+$(call inherit-product, vendor/kmobs/products/bcm_fm_radio.mk)
 
 #
 # Set ro.modversion
@@ -54,4 +54,4 @@ endif
 # Copy passion specific prebuilt files
 #
 PRODUCT_COPY_FILES +=  \
-    vendor/cyanogen/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/kmobs/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
