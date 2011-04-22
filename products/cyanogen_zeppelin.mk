@@ -2,6 +2,7 @@
 $(call inherit-product, device/motorola/zeppelin/zeppelin.mk)
 
 # Inherit some common cyanogenmod stuff.
+USE_ADW_LAUNCHER := false
 $(call inherit-product, vendor/cyanogen/products/common_full.mk)
 
 $(call inherit-product vendor/cyanogen/products/bcm_fm_radio.mk)

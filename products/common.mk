@@ -3,7 +3,12 @@ PRODUCT_NAME := cyanogen
 PRODUCT_BRAND := cyanogen
 PRODUCT_DEVICE := generic
 
-PRODUCT_PACKAGES += ADWLauncher
+
+ifneq ($(USE_ADW_LAUNCHER),false)
+    PRODUCT_PACKAGES += ADWLauncher
+else
+    PRODUCT_PACKAGES += Launcher2
+endif
 
 ifdef CYANOGEN_NIGHTLY
 PRODUCT_PROPERTY_OVERRIDES += \
