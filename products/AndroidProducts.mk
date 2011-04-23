@@ -28,4 +28,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_vision.mk \
     $(LOCAL_DIR)/cyanogen_z71.mk \
     $(LOCAL_DIR)/cyanogen_zeppelin.mk \
-    $(LOCAL_DIR)/cyanogen_zero.mk
+    $(LOCAL_DIR)/cyanogen_zero.mk \
+    $(LOCAL_DIR)/cyanogen_p999.mk
