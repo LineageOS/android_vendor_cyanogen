@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAADn//+jc\u003d",
+        "filename": "CHANGELOG.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 296
+      },
+      "writtenOn": "2011-04-24T02:29:31Z",
+      "side": 1,
+      "message": "\"last\" should be changed to \"latest\"",
+      "revId": "2bd7b1cdf3db04de7db342a21c6c7f33ac276939",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
