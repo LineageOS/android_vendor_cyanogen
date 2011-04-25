@@ -55,6 +55,10 @@ Translators:
 
 CHANGELOG
 ---------
+### 7.0.3
+* Common: Misc GPS fixes - Zinx
+* 8x50: Fix camcorder crash- - Cyanogen
+
 ### 7.0.2
 * Common: Fix issue with missing built-in themes
 * Common: Update bundled ROM Manager to latest version
