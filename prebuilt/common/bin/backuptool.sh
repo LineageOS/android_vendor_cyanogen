@@ -18,10 +18,17 @@ check_prereq() {
 }
 
 check_installscript() {
-   if [ -f "/tmp/.installscript" -a ! -f "$S/etc/force_backuptool" ];
+   if [ -f "/tmp/.installscript" ];
    then
-      echo "/tmp/.installscript found. Skipping backuptool."
-      PROCEED=0;
+      # We have an install script - We need to check and see if we also
+      # have force_backup in either /etc or /tmp/backupdir 
+      if [ -f "$S/etc/force_backuptool" ] || [ -f "$C/force_backuptool" ];
+      then
+         echo "force_backuptool file found, Forcing backuptool."
+      else
+         echo "/tmp/.installscript found. Skipping backuptool."
+         PROCEED=0;
+      fi
    fi
 }
 
@@ -132,12 +139,11 @@ restore_file() {
    fi
 }
 
-check_installscript;
-
 case "$1" in
    backup)
       mount $S
       check_prereq;
+      check_installscript;
       if [ $PROCEED -ne 0 ];
       then
          rm -rf $C
@@ -152,6 +158,7 @@ case "$1" in
    ;;
    restore)
       check_prereq;
+      check_installscript;
       if [ $PROCEED -ne 0 ];
       then
          for file_list in get_files get_custom_files; do
