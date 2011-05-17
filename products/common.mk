@@ -37,10 +37,14 @@ PRODUCT_PACKAGES += \
     CMParts \
     CMStats \
     CMUpdateNotify \
-    CMWallpapers \
     DSPManager \
     libcyanogen-dsp \
     Pacman
+
+ifneq ($(TARGET_SKIP_WALLPAPERS),true)
+PRODUCT_PACKAGES += \
+       CMWallpapers
+endif
 
 # Extra tools in CyanogenMod
 PRODUCT_PACKAGES += \
