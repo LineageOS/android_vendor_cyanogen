@@ -24,6 +24,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_liberty.mk \
     $(LOCAL_DIR)/cyanogen_mecha.mk \
     $(LOCAL_DIR)/cyanogen_one.mk \
+    $(LOCAL_DIR)/cyanogen_p7510.mk \
     $(LOCAL_DIR)/cyanogen_p990.mk \
     $(LOCAL_DIR)/cyanogen_p999.mk \
     $(LOCAL_DIR)/cyanogen_passion.mk \
