@@ -63,6 +63,7 @@ PRODUCT_COPY_FILES += \
     vendor/cyanogen/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
     vendor/cyanogen/prebuilt/common/etc/terminfo/l/linux:system/etc/terminfo/l/linux \
     vendor/cyanogen/prebuilt/common/etc/terminfo/u/unknown:system/etc/terminfo/u/unknown \
+    vendor/cyanogen/prebuilt/common/etc/terminfo/x/xterm:system/etc/terminfo/x/xterm \
     vendor/cyanogen/prebuilt/common/etc/profile:system/etc/profile \
     vendor/cyanogen/prebuilt/common/etc/init.local.rc:system/etc/init.local.rc \
     vendor/cyanogen/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
