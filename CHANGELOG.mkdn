@@ -26,7 +26,7 @@ Maintainers:
 * Geeksphone ONE: arcee
 * Geeksphone ZERO: arcee
 * Z71 (Boston, G1305, XT502, A60, Blaze, others): arcee
-* Wildfire: Jacob Crawley, Arne Coucheron
+* Buzz (Wildfire): Jacob Crawley, Arne Coucheron
 * Harmony (Malata smb_a1002/smb_b9701): bekit, pershoot
 * Harmony (Malata smb_a1004/smb_a1011): arcee
 * Ace (Desire HD): Kali-
@@ -68,7 +68,7 @@ CHANGELOG
 * Common: Profile improvements and bugfixes - Martin Long
 * Common: RTL text improvements - Eyad Aboulouz, Eran Mizrahi
 * Common: Wake on volume key option - Sven Dawitz
-* Common: Support for revoking application permissions - Plamen K. Kosseff 
+* Common: Support for revoking application permissions - Plamen K. Kosseff
 * Common: Latest Superuser app - ChainsDD
 * Common: Control brightness by sliding on statusbar - Danesh M
 * Common: Add "copy all" to context menu - Danesh M
@@ -83,6 +83,7 @@ CHANGELOG
 * Common: ADWLauncher- Transitions, catalog improvements, bugfixes - John Van Etten
 * Common: Optional GMT correction for SMS/MMS timestamps - Terry Hau
 * Vision/Glacier/Ace/Speedy: 2.6.35 kernel and updated userspace
+* Buzz: 2.6.35 kernel - Arne Coucheron
 
 ### 7.0.3
 * Common: Don't allow packages with platform keys on user-controlled storage
