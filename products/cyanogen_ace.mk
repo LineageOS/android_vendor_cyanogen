@@ -51,4 +51,11 @@ endif
 # Copy passion specific prebuilt files
 #
 PRODUCT_COPY_FILES +=  \
-    vendor/cyanogen/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/cyanogen/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip \
+	vendor/cyanogen/prebuilt/hdpi/media/android_audio.mp3:system/media/android_audio.mp3
+	
+#
+# Enables playing Bootsound
+#
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.config.play.bootsound=1
