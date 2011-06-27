@@ -5,14 +5,6 @@ PRODUCT_DEVICE := generic
 
 PRODUCT_PACKAGES += ADWLauncher
 
-ifdef CYANOGEN_NIGHTLY
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.rommanager.developerid=cyanogenmodnightly
-else
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.rommanager.developerid=cyanogenmod
-endif
-
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 # Used by BusyBox
@@ -83,9 +75,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
 #    vendor/cyanogen/prebuilt/common/etc/init.d/10apps2sd:system/etc/init.d/10apps2sd
-
-PRODUCT_COPY_FILES +=  \
-    vendor/cyanogen/proprietary/RomManager.apk:system/app/RomManager.apk \
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
