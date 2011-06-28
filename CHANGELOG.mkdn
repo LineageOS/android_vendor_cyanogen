@@ -43,6 +43,7 @@ Maintainers:
 * Captivate (SGH-I896/SGH-I897): atinm, Unhelpful, coolya, codeworkx
 * Vibrant (SGH-T959): coolya, atinm, codeworkx, Unhelpful
 * Incredible S: Kali-, attn1
+* Galaxy S II (GT-I9100): atinm, codeworkx, coolya, GuiperPT, Unhelpful
 
 Translators:
 ------------
