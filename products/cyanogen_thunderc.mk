@@ -1,18 +1,16 @@
-$(call inherit-product, build/target/product/full_base.mk)
-
-# Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cyanogen/products/common_full.mk)
-
 # Inherit device configuration for the thunderc.
 # TODO: Split this up into VM670 and LS670 files here
 # and make sure that device repo contains the common code.
 $(call inherit-product, device/lge/thunderc/device_thunderc.mk)
 
+# Inherit some common cyanogenmod stuff.
+$(call inherit-product, vendor/cyanogen/products/common_full.mk)
+
 # Include FM-Radio stuff (does not work at this moment)
 $(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
 
 PRODUCT_BRAND := LGE
-PRODUCT_DEVICE := thunderc 
+PRODUCT_DEVICE := thunderc
 PRODUCT_MODEL := LS670
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_NAME := cyanogen_thunderc
