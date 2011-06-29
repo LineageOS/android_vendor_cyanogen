@@ -9,7 +9,7 @@ $(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
 
 PRODUCT_BRAND := LGE
 PRODUCT_DEVICE := thunderc
-PRODUCT_MODEL := $(SUB_MODEL)
+PRODUCT_MODEL := LG-$(SUB_MODEL)
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_NAME := cyanogen_thunderc_$(SUB_MODEL)
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=thunderc BUILD_UTC_DATE=0
