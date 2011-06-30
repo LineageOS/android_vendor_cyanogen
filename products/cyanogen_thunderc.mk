@@ -12,7 +12,7 @@ PRODUCT_DEVICE := thunderc
 PRODUCT_MODEL := LG-$(SUB_MODEL)
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_NAME := cyanogen_thunderc_$(SUB_MODEL)
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=thunderc BUILD_UTC_DATE=0
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 # Live wallpaper packages
 PRODUCT_PACKAGES += \
@@ -25,14 +25,14 @@ PRODUCT_PACKAGES += \
 
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-thunderc-IHO
+        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-$(PRODUCT_MODEL)-IHO
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-RC0-thunderc
+            ro.modversion=CyanogenMod-7.1.0-RC0-$(PRODUCT_MODEL)
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-RC0-thunderc-KANG-IHO
+            ro.modversion=CyanogenMod-7.1.0-RC0-$(PRODUCT_MODEL)-KANG-IHO
     endif
 endif
 
