@@ -9,6 +9,8 @@ Visit http://bit.ly/cmprogress for the device release spreadsheet.
 
 Follow http://twitter.com/cmsrc for commit-by-commit updates.
 
+Lastest ChangeLog : http://wiki.cyanogenmod.com/?title=Changelog
+
 Maintainers:
 ------------
 * Nexus One: Cyanogen
@@ -43,13 +45,14 @@ Maintainers:
 * Captivate (SGH-I896/SGH-I897): atinm, Unhelpful, coolya, codeworkx
 * Vibrant (SGH-T959): coolya, atinm, codeworkx, Unhelpful
 * Incredible S: Kali-, attn1
+* Jordan (Defy): Quarx, Epsylon3, Maniac
 
 Translators:
 ------------
 * German: Matthias Büchner, Alexander Hofbauer, Sebastian K (DerSeppel), Ricco Thiel
 * Italian: Eugenio Ziliotto, Giulio Cervera
 * Japanese: Takuo Kitame
-* French: Sébastien Vaucher, David Girault
+* French: Sébastien Vaucher, David Girault, Tanguy Pruvot
 * Simplified Chinese: comercy, Qian Zheng
 * Russian: OlegKrikun, Pavel Volkov, Kir Kolyshkin
 * Portuguese: Eduardo Martins, Ricardo Pinho
@@ -65,7 +68,7 @@ Translators:
 CHANGELOG
 ---------
 
-### 7.1.0-pre
+### 7.1.0-RC1
 * Common: Android 2.3.4 (Google)
 * Common: Bluetooth mouse support - Scott Brady
 * Common: Improve notification swipe-to-clear - Evan Charlton
