@@ -123,6 +123,10 @@ $SED -i \
 	-e '/ro\.build\.type/s/eng/user/' \
 	$REPACK/ota/system/build.prop
 
+# Include device specific script
+if [ "$TARGET_PRODUCT" = "cyanogen_jordan" ]; then
+	. $ANDROID_BUILD_TOP/device/motorola/jordan/squisher.sh
+fi
 
 # Delete unnecessary binaries
 ( cd $REPACK/ota/system/bin; echo $DELETE_BINS | xargs rm -f; )
@@ -143,6 +147,10 @@ if [ -z "$CYANOGEN_NIGHTLY" ]; then
 	OUTFILE=$OUT/update-cm-$MODVERSION-signed.zip
 else
 	OUTFILE=$OUT/update-squished.zip
+	if [ "$TARGET_PRODUCT" = "cyanogen_jordan" ]; then
+		MODVERSION=`sed -n -e'/ro\.modversion/s/^.*CyanogenMod-//p' $REPACK/ota/system/build.prop`
+		OUTFILE=$OUT/cm$MODVERSION.zip
+	fi
 fi
 
 # Pack it up and sign
