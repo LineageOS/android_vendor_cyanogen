@@ -123,6 +123,10 @@ $SED -i \
 	-e '/ro\.build\.type/s/eng/user/' \
 	$REPACK/ota/system/build.prop
 
+# Include device specific script (device env vars are not accessible in this script)
+if [ "$TARGET_PRODUCT" = "cyanogen_jordan" ]; then
+	. $ANDROID_BUILD_TOP/device/motorola/jordan/releasetools/squisher.sh
+fi
 
 # Delete unnecessary binaries
 ( cd $REPACK/ota/system/bin; echo $DELETE_BINS | xargs rm -f; )
