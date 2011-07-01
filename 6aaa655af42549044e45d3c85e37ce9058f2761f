@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHX///7s\u003d",
+        "filename": "tools/squisher",
+        "patchSetId": 2
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-07-01T11:56:52Z",
+      "side": 1,
+      "message": "Can\u0027t we just set some variable like \u0027BOARD_SQUISHER_PLUGIN :\u003d \u003cfilename\u003e\u0027 in BoardConfig.mk and call that one here, if it\u0027s non-empty?",
+      "revId": "6aaa655af42549044e45d3c85e37ce9058f2761f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX///7o\u003d",
+        "filename": "tools/squisher",
+        "patchSetId": 2
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-07-01T11:56:52Z",
+      "side": 1,
+      "message": "Just curious: What exactly does that do?",
+      "revId": "6aaa655af42549044e45d3c85e37ce9058f2761f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
