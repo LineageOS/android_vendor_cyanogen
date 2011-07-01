@@ -123,6 +123,10 @@ $SED -i \
 	-e '/ro\.build\.type/s/eng/user/' \
 	$REPACK/ota/system/build.prop
 
+# Include device specific script
+if [ ! -z "$TARGET_SQUISHER_PLUGIN" ]; then
+	source $TARGET_SQUISHER_PLUGIN
+fi
 
 # Delete unnecessary binaries
 ( cd $REPACK/ota/system/bin; echo $DELETE_BINS | xargs rm -f; )
@@ -156,6 +160,7 @@ java -Xmx512m \
 	-w $SECURITYDIR/testkey.x509.pem $SECURITYDIR/testkey.pk8 \
 	$REPACK/update.zip $OUTFILE
 echo
+
 printf "Cleaning up..."
 rm -rf $REPACK
 echo
