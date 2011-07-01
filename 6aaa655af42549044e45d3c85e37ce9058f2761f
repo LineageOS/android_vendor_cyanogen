@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAHX///7A\u003d",
+        "filename": "tools/squisher",
+        "patchSetId": 2
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-07-01T12:56:00Z",
+      "side": 1,
+      "message": "could be made later...",
+      "parentUuid": "AAAAHX///7s\u003d",
+      "revId": "6aaa655af42549044e45d3c85e37ce9058f2761f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHX///7o\u003d",
         "filename": "tools/squisher",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2011-07-01T11:56:52Z",
       "side": 1,
       "message": "Just curious: What exactly does that do?",
+      "revId": "6aaa655af42549044e45d3c85e37ce9058f2761f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX///7E\u003d",
+        "filename": "tools/squisher",
+        "patchSetId": 2
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-07-01T12:56:00Z",
+      "side": 1,
+      "message": "that rename the zip just like the mod version as you know them....\nhttp://defy.tanguy.tk/jordan-cm7_nightly/",
+      "parentUuid": "AAAAHX///7o\u003d",
       "revId": "6aaa655af42549044e45d3c85e37ce9058f2761f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
