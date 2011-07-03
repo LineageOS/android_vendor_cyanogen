@@ -9,6 +9,18 @@ then
     SD_EXT_DIRECTORY=/sd-ext;
 fi;
 
+# find first linux partition on SD card
+MMC=/dev/block/mmcblk1
+
+# wait for the device to settle
+COUNT=7;
+until [ -b "$MMC" ] || [ $COUNT -lt 1 ];
+do
+    log -p i -t mountsd "$MMC not ready, waiting $COUNT seconds..."
+    sleep 1;
+    COUNT=$((COUNT-1));
+done;
+
 # find SD Card
 for MMC_NUM in `seq 0 9`;
 do
