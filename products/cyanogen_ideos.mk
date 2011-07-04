@@ -22,14 +22,14 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=huawei_ideos BUILD_ID=GRJ22 BUILD_D
 #
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-IDEOS   
+        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-IDEOS
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-RC1-IDEOS
+           ro.modversion=CyanogenMod-7.1.0-RC1-IDEOS
     else
-     	   PRODUCT_PROPERTY_OVERRIDES += \
-                ro.modversion=CyanogenMod-7.1.0-RC1-IDEOS-KANG
+        PRODUCT_PROPERTY_OVERRIDES += \
+           ro.modversion=CyanogenMod-7.1.0-RC1-IDEOS-KANG
     endif
 endif
 
