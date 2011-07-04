@@ -9,18 +9,6 @@ then
     SD_EXT_DIRECTORY=/sd-ext;
 fi;
 
-# find first linux partition on SD card
-MMC=/dev/block/mmcblk1
-
-# wait for the device to settle
-COUNT=7;
-until [ -b "$MMC" ] || [ $COUNT -lt 1 ];
-do
-    log -p i -t mountsd "$MMC not ready, waiting $COUNT seconds..."
-    sleep 1;
-    COUNT=$((COUNT-1));
-done;
-
 # find SD Card
 for MMC_NUM in `seq 0 9`;
 do
@@ -29,6 +17,15 @@ do
     then
         # 2nd partition of sdcard should be the sd-ext if exist
         SD_EXT_PART=/dev/block/mmcblk${MMC_NUM}p2
+
+        # wait for the device to settle
+        COUNT=4;
+        until [ -b "$SD_EXT_PART" ] || [ $COUNT -lt 1 ];
+        do
+            log -p i -t mountsd "$SD_EXT_PART not ready, waiting $COUNT seconds..."
+            sleep 1;
+            COUNT=$((COUNT-1));
+        done;
         break
     fi
 done
