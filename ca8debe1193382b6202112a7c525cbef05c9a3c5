@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHX///mc\u003d",
+        "filename": "products/cyanogen_ideos.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-07-04T16:47:54Z",
+      "side": 1,
+      "message": "If I understand the fingerprint correctly, your device is identifying itself as Nexus One towards e.g. the market? Is that on purpose?",
+      "revId": "ca8debe1193382b6202112a7c525cbef05c9a3c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX///mY\u003d",
+        "filename": "products/cyanogen_ideos.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-07-04T16:47:54Z",
+      "side": 1,
+      "message": "Can you please remove that trailing whitespace?",
+      "revId": "ca8debe1193382b6202112a7c525cbef05c9a3c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX///mU\u003d",
+        "filename": "products/cyanogen_ideos.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-07-04T16:47:54Z",
+      "side": 1,
+      "message": "Please convert the tab to spaces.",
+      "revId": "ca8debe1193382b6202112a7c525cbef05c9a3c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
