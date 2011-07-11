@@ -16,6 +16,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 # Live wallpaper packages
 PRODUCT_PACKAGES += \
+        Torch \
         LiveWallpapers \
         LiveWallpapersPicker \
         MagicSmokeWallpapers \
