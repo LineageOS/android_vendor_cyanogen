@@ -1,3 +1,9 @@
+# Include the stock APNS config file instead of the dev one
+PRODUCT_COPY_FILES := \
+    vendor/cyanogen/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml \
+    vendor/cyanogen/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip \
+    $(PRODUCT_COPY_FILES)
+
 # Inherit device configuration for the thunderc.
 $(call inherit-product, device/lge/thunderc/device_thunderc.mk)
 
@@ -16,7 +22,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 # Live wallpaper packages
 PRODUCT_PACKAGES += \
-        Torch \
         LiveWallpapers \
         LiveWallpapersPicker \
         MagicSmokeWallpapers \
@@ -37,5 +42,3 @@ else
     endif
 endif
 
-PRODUCT_COPY_FILES +=  \
-    vendor/cyanogen/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip
