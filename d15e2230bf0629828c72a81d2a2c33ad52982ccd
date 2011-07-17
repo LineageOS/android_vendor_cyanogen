@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHX//+dw\u003d",
+        "filename": "products/common.mk",
+        "patchSetId": 7
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1279
+      },
+      "writtenOn": "2011-07-17T13:25:10Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this line test for *.so instead of *.lib?",
+      "revId": "d15e2230bf0629828c72a81d2a2c33ad52982ccd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
