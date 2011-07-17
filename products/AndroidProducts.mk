@@ -6,6 +6,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_buzz.mk \
     $(LOCAL_DIR)/cyanogen_captivatemtd.mk \
     $(LOCAL_DIR)/cyanogen_click.mk \
+    $(LOCAL_DIR)/cyanogen_cooper.mk \
     $(LOCAL_DIR)/cyanogen_crespo.mk \
     $(LOCAL_DIR)/cyanogen_crespo4g.mk \
     $(LOCAL_DIR)/cyanogen_desirec.mk \
