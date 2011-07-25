@@ -27,6 +27,7 @@ add_lunch_combo cyanogen_liberty-eng
 add_lunch_combo cyanogen_mecha-eng
 add_lunch_combo cyanogen_morrison-eng
 add_lunch_combo cyanogen_one-eng
+add_lunch_combo cyanogen_p920-eng
 add_lunch_combo cyanogen_p990-eng
 add_lunch_combo cyanogen_p999-eng
 add_lunch_combo cyanogen_passion-eng
