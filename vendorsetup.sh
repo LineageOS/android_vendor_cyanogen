@@ -44,6 +44,7 @@ add_lunch_combo cyanogen_p970-eng
 add_lunch_combo cyanogen_p990-eng
 add_lunch_combo cyanogen_p999-eng
 add_lunch_combo cyanogen_passion-eng
+add_lunch_combo cyanogen_pyramid-eng
 add_lunch_combo cyanogen_robyn-eng
 add_lunch_combo cyanogen_saga-eng
 add_lunch_combo cyanogen_satsuma-eng
