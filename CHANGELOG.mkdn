@@ -16,7 +16,7 @@ Maintainers:
 * Droid: cvpcs, mtwebster, Koush
 * Dream/Sapphire: Sileht, Wes Garner, Cyanogen
 * Eris: Workshed, Conap
-* Hero: Esa Laukkanen (GSM), Darchstar (CDMA)
+* Hero: Esa Laukkanen (GSM), Decad3nce (CDMA)
 * Desire (GSM/CDMA): Kali-, Defer
 * Incredible: jistone, slayher, Koush
 * Supersonic (EVO): Cyanogen, toastcfh
@@ -53,7 +53,7 @@ Translators:
 * German: Matthias Büchner, Alexander Hofbauer, Sebastian K (DerSeppel), Ricco Thiel
 * Italian: Eugenio Ziliotto, Giulio Cervera
 * Japanese: Takuo Kitame
-* French: Sébastien Vaucher, David Girault
+* French: Sébastien Vaucher, David Girault, Tanguy Pruvot
 * Simplified Chinese: comercy, Qian Zheng
 * Russian: OlegKrikun, Pavel Volkov, Kir Kolyshkin
 * Portuguese: Eduardo Martins, Ricardo Pinho
@@ -70,7 +70,7 @@ CHANGELOG
 ---------
 
 ### 7.1.0-pre
-* Common: Android 2.3.4 (Google)
+* Common: Android 2.3.5 (Google)
 * Common: Bluetooth mouse support - Scott Brady
 * Common: Improve notification swipe-to-clear - Evan Charlton
 * Common: Improve album-artist support in media scanner - Paul Crovella
