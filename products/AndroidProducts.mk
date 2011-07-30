@@ -33,6 +33,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_passion.mk \
     $(LOCAL_DIR)/cyanogen_shadow.mk \
     $(LOCAL_DIR)/cyanogen_sholes.mk \
+    $(LOCAL_DIR)/cyanogen_shooter.mk \
     $(LOCAL_DIR)/cyanogen_smb_a1002.mk \
     $(LOCAL_DIR)/cyanogen_smb_a1004.mk \
     $(LOCAL_DIR)/cyanogen_smb_a1011.mk \
