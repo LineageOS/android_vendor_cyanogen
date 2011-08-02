@@ -50,6 +50,7 @@ Maintainers:
 * Xperia Arc (LT15i): Bin4ry,defer,jerpelea (FreeXperia team)
 * Xperia Neo (MT15i): Bin4ry,defer,jerpelea (FreeXperia team)
 * Xperia Play (R800i): Bin4ry,defer,jerpelea (FreeXperia team)
+* V9 (ZTE Light, Optus MyTab, others): kallt_kaffe and Tom Giordano
 
 Translators:
 ------------
