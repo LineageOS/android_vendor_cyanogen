@@ -18,8 +18,9 @@ PRODUCT_MANUFACTURER := HTC
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_pyramid BUILD_ID=GRI40 BUILD_DISPLAY_ID=GRJ22 BUILD_FINGERPRINT="tmous/htc_pyramid/pyramid:2.3.3/GRI40/70849:user/release-keys" PRVIATE_BUILD_DESC="1.29.531.2 CL70849 release-keys"
 
 # Extra pyramid overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/pyramid
-
+PRODUCT_PACKAGE_OVERLAYS += \
+    vendor/cyanogen/overlay/pyramid \
+    vendor/cyanogen/overlay/qhd
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
