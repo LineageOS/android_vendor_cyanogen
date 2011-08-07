@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn//+oE\u003d",
+        "filename": "products/cyanogen_saga.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 68
+      },
+      "writtenOn": "2011-08-07T23:13:32Z",
+      "side": 1,
+      "message": "Saga is DesireS is it not?",
+      "revId": "22f91aa8a753d17bbe628ccceb8a3423700173ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//+oA\u003d",
+        "filename": "products/cyanogen_saga.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 68
+      },
+      "writtenOn": "2011-08-07T23:13:32Z",
+      "side": 1,
+      "message": "This should be DesireS or something similar. We don\u0027t want people thinking that there is dream/sapphire coming.",
+      "revId": "22f91aa8a753d17bbe628ccceb8a3423700173ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//+n8\u003d",
+        "filename": "products/cyanogen_saga.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 68
+      },
+      "writtenOn": "2011-08-07T23:13:32Z",
+      "side": 1,
+      "message": "Same as above",
+      "revId": "22f91aa8a753d17bbe628ccceb8a3423700173ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
