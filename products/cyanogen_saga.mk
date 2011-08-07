@@ -47,6 +47,7 @@ else
     else
         PRODUCT_PROPERTY_OVERRIDES += \
             ro.modversion=CyanogenMod-7.1.0-RC1-DS-KANG
+
     endif
 endif
 
