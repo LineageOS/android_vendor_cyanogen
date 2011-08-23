@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAH3///+M\u003d",
+        "filename": "products/cyanogen_galaxysbmtd.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 783
+      },
+      "writtenOn": "2011-08-23T01:07:22Z",
+      "side": 1,
+      "message": "use GalaxyS_B instead",
+      "revId": "bc4ddf3e391f781d6f7b67a92dfe39e42e961fa3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3///+I\u003d",
+        "filename": "products/cyanogen_galaxysbmtd.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 783
+      },
+      "writtenOn": "2011-08-23T01:07:22Z",
+      "side": 1,
+      "message": "use GalaxyS_B instead",
+      "revId": "bc4ddf3e391f781d6f7b67a92dfe39e42e961fa3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3///+E\u003d",
+        "filename": "products/cyanogen_galaxysbmtd.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 783
+      },
+      "writtenOn": "2011-08-23T01:07:22Z",
+      "side": 1,
+      "message": "use GalaxyS_B instead",
+      "revId": "bc4ddf3e391f781d6f7b67a92dfe39e42e961fa3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
