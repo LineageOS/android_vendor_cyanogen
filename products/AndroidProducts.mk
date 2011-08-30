@@ -12,7 +12,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_desirec.mk \
     $(LOCAL_DIR)/cyanogen_dream_sapphire.mk \
     $(LOCAL_DIR)/cyanogen_droid2.mk \
-    $(LOCAL_DIR)/cyanogen_droid2we.mk \
     $(LOCAL_DIR)/cyanogen_encore.mk \
     $(LOCAL_DIR)/cyanogen_espresso.mk \
     $(LOCAL_DIR)/cyanogen_fascinatemtd.mk \
@@ -35,6 +34,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_p990.mk \
     $(LOCAL_DIR)/cyanogen_p999.mk \
     $(LOCAL_DIR)/cyanogen_passion.mk \
+    $(LOCAL_DIR)/cyanogen_saga.mk \
     $(LOCAL_DIR)/cyanogen_shadow.mk \
     $(LOCAL_DIR)/cyanogen_sholes.mk \
     $(LOCAL_DIR)/cyanogen_showcasemtd.mk \
