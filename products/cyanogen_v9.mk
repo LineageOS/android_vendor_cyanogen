@@ -1,25 +1,21 @@
-# Inherit AOSP device configuration for v9.
-$(call inherit-product, device/zte/v9/device_v9.mk)
-
-# Inherit some common cyanogenmod stuff.
+# Inherit some common CyanogenMod stuff.
 $(call inherit-product, vendor/cyanogen/products/common_full.mk)
 
-# Include GSM stuff
-$(call inherit-product, vendor/cyanogen/products/gsm.mk)
+# Inherit CM device configuration for v9.
+$(call inherit-product, device/zte/v9/device_v9.mk)
 
-#
+# Extra v9 overlay
+#PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/v9
+
 # Setup device specific product configuration.
-#
 PRODUCT_NAME := cyanogen_v9
 PRODUCT_BRAND := zte
 PRODUCT_DEVICE := v9
 PRODUCT_MODEL := V9
 PRODUCT_MANUFACTURER := ZTE
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=v9 BUILD_ID=GRJ22 BUILD_DISPLAY_ID=GRJ90 BUILD_FINGERPRINT=google/passion/passion:2.3.4/GRJ22/121341:user/release-keys PRIVATE_BUILD_DESC="passion-user 2.3.4 GRJ22 121341 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=v9 BUILD_ID=GRJ22 BUILD_DISPLAY_ID=GRK39C BUILD_FINGERPRINT=google/passion/passion:2.3.4/GRJ22/121341:user/release-keys PRIVATE_BUILD_DESC="passion-user 2.3.4 GRJ22 121341 release-keys"
 
-#
 # Set ro.modversion
-#
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
         ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-V9
@@ -33,8 +29,14 @@ else
     endif
 endif
 
-#
-# Copy legend specific prebuilt files
-#
+# Build kernel
+#PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=
+#PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_DIR=
+#PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_CONFIG=cyanogen_v9_defconfig
+
+# Copy hdpi specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/cyanogen/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
+
+# Include GSM stuff
+$(call inherit-product, vendor/cyanogen/products/gsm.mk)
