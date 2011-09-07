@@ -24,6 +24,10 @@ case "$1" in
       if [ $MODULE = ramzswap ]; then
           rzscontrol $DEV --disksize_kb=$2 --init
       else
+          if [ ! -b $DEV ]; then
+              cat $SYSFS_PATH/dev | awk 'BEGIN {FS=":"}{print $MAJOR, $MINOR}'
+              mknod $DEV block $MAJOR $MINOR
+          fi
           echo "$(($2 * 1024))" > $SYSFS_PATH/disksize
           mkswap $DEV >/dev/null
       fi
