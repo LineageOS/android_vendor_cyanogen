@@ -8,12 +8,14 @@
 # MAHIMAHI TMUS MODELID PB9910000
 # GLACIER  TMUS MODELID PD1510000
 # Espresso TMUS MODELID PB6510000
+# Pyramid  TMUS MODELID PG5810000
 #
 
 kineto=/system/app/MS-HTCEMR-KNT20-02-A0-GB-02.apk
+kineto2=/system/app/MS-HTCDP-KNT20-02-A0-GB.apk
 rm_kineto=y
 
-cat /proc/cmdline|egrep -q '(PC1010000)|(PB9910000)|(PD1510000)|(PB6510000)'
+cat /proc/cmdline|egrep -q '(PC1010000)|(PB9910000)|(PD1510000)|(PB6510000)|(PG5810000)'
 if [ $? = 0 ];
     then
        rm_kineto=n
@@ -24,6 +26,16 @@ if [ "$rm_kineto" = "y" ];
        if [ -f $kineto ];
           then
              rm -f /system/app/MS-HTCEMR-KNT20-02-A0-GB-02.apk
+             rm -f /system/lib/libkineto.so
+             rm -f /system/lib/libganril.so
+             rm -f /system/lib/librilswitch.so
+             sed 's/librilswitch.so/libhtc_ril.so/' /system/build.prop > /tmp/build.tmp
+             sed '/rilswitch/d' /tmp/build.tmp > /system/build.prop
+             chmod 644 /system/build.prop
+             rm /tmp/build*
+       elif [ -f $kineto2 ];
+          then
+             rm -f /system/app/MS-HTCDP-KNT20-02-AO-GB.apk
              rm -f /system/lib/libkineto.so
              rm -f /system/lib/libganril.so
              rm -f /system/lib/librilswitch.so
