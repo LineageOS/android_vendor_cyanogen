@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAH3//+Dw\u003d",
+        "filename": "prebuilt/common/bin/modelid_cfg.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 431
+      },
+      "writtenOn": "2011-09-11T19:52:23Z",
+      "side": 1,
+      "message": "This should be all in one line right?",
+      "revId": "9cca1a1fe3f5edb006a34ae1b95731054f47a64e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
