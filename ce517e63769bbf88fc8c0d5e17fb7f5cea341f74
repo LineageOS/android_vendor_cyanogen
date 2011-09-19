@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAH3//9cA\u003d",
+        "filename": "products/cyanogen_vivow.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 34
+      },
+      "writtenOn": "2011-09-19T06:08:51Z",
+      "side": 1,
+      "message": "ro.modversion\u003dCyanogenMod-7.1.0-RC2-Inc2",
+      "revId": "ce517e63769bbf88fc8c0d5e17fb7f5cea341f74",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//9cU\u003d",
+        "filename": "products/cyanogen_vivow.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 34
+      },
+      "writtenOn": "2011-09-19T06:08:51Z",
+      "side": 1,
+      "message": "ro.modversion\u003dCyanogenMod-7.1.0-RC2-Inc2-KANG",
+      "revId": "ce517e63769bbf88fc8c0d5e17fb7f5cea341f74",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
