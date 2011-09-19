@@ -43,7 +43,7 @@ else
             ro.modversion=CyanogenMod-7.1.0-Beta1-Inc2
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-RC1-Beta1-Inc2-KANG
+            ro.modversion=CyanogenMod-7.1.0-RC2-Beta1-Inc2-KANG
     endif
 endif
 
