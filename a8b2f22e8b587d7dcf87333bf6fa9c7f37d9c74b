@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAI3///vY\u003d",
+        "filename": "CHANGELOG.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2011-09-26T07:41:17Z",
+      "side": 1,
+      "message": "That wasn\u0027t me :)\n\nIf you\u0027re referring to http://review.cyanogenmod.com/#change,7634\n\nThen its George Maizel.",
+      "revId": "a8b2f22e8b587d7dcf87333bf6fa9c7f37d9c74b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
