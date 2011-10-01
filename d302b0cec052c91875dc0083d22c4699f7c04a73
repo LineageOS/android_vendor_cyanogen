@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAJH///7k\u003d",
+        "filename": "CHANGELOG.mkdn",
+        "patchSetId": 2
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2011-10-01T01:12:51Z",
+      "side": 1,
+      "message": "Are the version numbers correct?",
+      "revId": "d302b0cec052c91875dc0083d22c4699f7c04a73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
