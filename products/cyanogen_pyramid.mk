@@ -28,7 +28,7 @@ PRODUCT_PACKAGES += Torch
 PRODUCT_PACKAGES += GanOptimizer
 
 # Broadcom FM radio
-#$(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
+$(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
 
 #
 # Set ro.modversion
