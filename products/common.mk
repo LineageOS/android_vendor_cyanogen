@@ -41,7 +41,8 @@ PRODUCT_PACKAGES += \
     libcyanogen-dsp \
     Pacman \
     screenshot \
-    CMScreenshot
+    CMScreenshot \
+    CMBootanimation
 
 # Extra tools in CyanogenMod
 PRODUCT_PACKAGES += \
