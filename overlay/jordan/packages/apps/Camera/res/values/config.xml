@@ -24,4 +24,8 @@
 	<!-- Wide media profile available -->
 	<bool name="supportsWideProfile">true</bool>
 
+        <!-- Autofocus parameters -->
+        <string name="touchFocusParameter">mot-areas-to-focus</string>
+        <bool name="touchFocusNeedsRect">true</bool>
+
 </resources>
