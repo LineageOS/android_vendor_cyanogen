@@ -22,21 +22,9 @@ PRODUCT_PACKAGE_OVERLAYS += \
 	vendor/cyanogen/overlay/olympus \
 #	vendor/cyanogen/overlay/qhd
 
-#
-# Set ro.modversion
-#
-ifdef CYANOGEN_NIGHTLY
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-Olympus
-else
-    ifdef CYANOGEN_RELEASE
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-Olympus
-    else
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-Olympus-KANG
-    endif
-endif
+PRODUCT_RELEASE_NAME := Olympus
+PRODUCT_VERSION_DEVICE_SPECIFIC :=
+-include vendor/cyanogen/products/common_versions.mk
 
 #
 # Copy hdpi specific prebuilt files

@@ -20,21 +20,10 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/crespo4g
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
-#
-# Set ro.modversion
-#
-ifdef CYANOGEN_NIGHTLY
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-NS4G
-else
-    ifdef CYANOGEN_RELEASE
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-NS4G
-    else
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-NS4G-KANG
-    endif
-endif
+# Release name and versioning
+PRODUCT_RELEASE_NAME := NS4G
+PRODUCT_VERSION_DEVICE_SPECIFIC :=
+-include vendor/cyanogen/products/common_versions.mk
 
 #
 # Copy crespo specific prebuilt files

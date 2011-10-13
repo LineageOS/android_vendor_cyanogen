@@ -20,21 +20,10 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/mesmerizemtd
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
-#
-# Set ro.modversion
-#
-ifdef CYANOGEN_NIGHTLY
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-Mesmerize
-else
-    ifdef CYANOGEN_RELEASE
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-Mesmerize
-    else
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-Mesmerize-KANG-$(shell date +%m%d)
-    endif
-endif
+# Release name and versioning
+PRODUCT_RELEASE_NAME := Mesmerize
+PRODUCT_VERSION_DEVICE_SPECIFIC :=
+-include vendor/cyanogen/products/common_versions.mk
 
 #
 # Copy galaxys specific prebuilt files

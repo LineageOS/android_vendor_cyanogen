@@ -18,21 +18,10 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/cyanogen/overlay/tablet \
     vendor/cyanogen/overlay/smb_b9701
 
-#
-# Set ro.modversion
-#
-ifdef CYANOGEN_NIGHTLY
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-smb_b9701
-else
-    ifdef CYANOGEN_RELEASE
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-smb_b9701
-    else
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-smb_b9701-KANG
-    endif
-endif
+# Release name and versioning
+PRODUCT_RELEASE_NAME := smb_b9701
+PRODUCT_VERSION_DEVICE_SPECIFIC :=
+-include vendor/cyanogen/products/common_versions.mk
 
 #
 # Copy passion specific prebuilt files
