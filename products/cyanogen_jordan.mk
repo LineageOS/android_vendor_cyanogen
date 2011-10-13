@@ -27,10 +27,10 @@ ifdef CYANOGEN_NIGHTLY
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-jordan
+            ro.modversion=CyanogenMod-7.1.0.1-Jordan
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-jordan
+            ro.modversion=CyanogenMod-7.1.0.1-Jordan
     endif
 endif
 
@@ -42,8 +42,8 @@ BUILD_ID=GWK74 \
 BUILD_DISPLAY_ID="Gingerbread GWK74" \
 PRODUCT_NAME=${PRODUCT_MODEL}_${PRODUCT_SFX} \
 TARGET_DEVICE=umts_jordan \
-BUILD_FINGERPRINT=MOTO/${PRODUCT_MODEL}_${PRODUCT_SFX}/umts_jordan/jordan:2.3.7/${PRODUCT_SBF}/${UTC_DATE}:user/release-keys \
-PRODUCT_BRAND=MOTO \
+BUILD_FINGERPRINT=MOTO/${PRODUCT_MODEL}_${PRODUCT_SFX}/umts_jordan/${PRODUCT_DEVICE}:2.3.7/${PRODUCT_SBF}/${UTC_DATE}:user/release-keys \
+PRODUCT_BRAND=${PRODUCT_BRAND} \
 PRIVATE_BUILD_DESC="umts_jordan-user 2.3.7 ${PRODUCT_SFX}_${PRODUCT_SBF} ${UTC_DATE} release-keys" \
 BUILD_NUMBER=${DATE} \
 BUILD_VERSION_TAGS=release-keys \
