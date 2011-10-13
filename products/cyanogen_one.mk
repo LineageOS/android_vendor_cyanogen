@@ -25,19 +25,10 @@ PRODUCT_PACKAGES += CMWallpapers
 #
 PRODUCT_PROPERTY_OVERRIDES += dalvik.vm.dexopt-data-only=1
 
-
-ifdef CYANOGEN_NIGHTLY
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-ONE
-else
-    ifdef CYANOGEN_RELEASE
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-ONE
-    else
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-ONE-KANG
-    endif
-endif
+# Release name and versioning
+PRODUCT_RELEASE_NAME := ONE
+PRODUCT_VERSION_DEVICE_SPECIFIC :=
+-include vendor/cyanogen/products/common_versions.mk
 
 #
 # Copy GPO specific prebuilt files

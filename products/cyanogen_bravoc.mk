@@ -25,21 +25,10 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/bravo
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
-#
-# Set ro.modversion
-#
-ifdef CYANOGEN_NIGHTLY
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-BravoC
-else
-    ifdef CYANOGEN_RELEASE
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-BravoC
-    else
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-BravoC-KANG
-    endif
-endif
+# Release name and versioning
+PRODUCT_RELEASE_NAME := BravoC
+PRODUCT_VERSION_DEVICE_SPECIFIC :=
+-include vendor/cyanogen/products/common_versions.mk
 
 #
 # Copy passion specific prebuilt files

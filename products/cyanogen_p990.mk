@@ -20,21 +20,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=lge_star BUILD_ID=FRG83G BUILD_DISP
 # Extra Star overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/star
 
-#
-# Set ro.modversion
-#
-ifdef CYANOGEN_NIGHTLY
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-Optimus2X
-else
-    ifdef CYANOGEN_RELEASE
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-Optimus2X
-    else
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-Optimus2X-KANG
-    endif
-endif
+# Release name and versioning
+PRODUCT_RELEASE_NAME := Optimus2X
+PRODUCT_VERSION_DEVICE_SPECIFIC :=
+-include vendor/cyanogen/products/common_versions.mk
 
 #
 # Copy prebuilt files

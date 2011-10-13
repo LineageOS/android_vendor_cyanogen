@@ -29,21 +29,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.oem.nosim.ecclist=911,112,999,000,08,118,120,122,110,119,995 \
     ro.ril.emc.mode=2
 
-#
-# Set ro.modversion
-#
-ifdef CYANOGEN_NIGHTLY
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-NS
-else
-    ifdef CYANOGEN_RELEASE
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-NS
-    else
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-NS-KANG
-    endif
-endif
+# Release name and versioning
+PRODUCT_RELEASE_NAME := NS
+PRODUCT_VERSION_DEVICE_SPECIFIC :=
+-include vendor/cyanogen/products/common_versions.mk
 
 #
 # Copy crespo specific prebuilt files

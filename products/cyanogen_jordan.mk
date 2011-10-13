@@ -18,21 +18,10 @@ PRODUCT_MANUFACTURER := motorola
 PRODUCT_SBF := 3.4.2-179-4
 PRODUCT_SFX := JOREM_U3
 
-#
-# Set ro.modversion
-#
-ifdef CYANOGEN_NIGHTLY
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7-$(shell date +%y%m%d-%H%M)-NIGHTLY-Jordan
-else
-    ifdef CYANOGEN_RELEASE
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-jordan
-    else
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-jordan
-    endif
-endif
+# Release name and versioning
+PRODUCT_RELEASE_NAME := Jordan
+PRODUCT_VERSION_DEVICE_SPECIFIC :=
+-include vendor/cyanogen/products/common_versions.mk
 
 UTC_DATE := $(shell date +%s)
 DATE     := $(shell date +%Y%m%d)

@@ -31,21 +31,10 @@ PRODUCT_PACKAGES += Torch
 # Broadcom FM radio
 $(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
 
-#
-# Set ro.modversion
-#
-ifdef CYANOGEN_NIGHTLY
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-Speedy
-else
-    ifdef CYANOGEN_RELEASE
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-Speedy
-    else
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-Speedy-KANG
-    endif
-endif
+# Release name and versioning
+PRODUCT_RELEASE_NAME := Speedy
+PRODUCT_VERSION_DEVICE_SPECIFIC :=
+-include vendor/cyanogen/products/common_versions.mk
 
 #
 # Copy passion specific prebuilt files

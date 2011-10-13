@@ -39,21 +39,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.additionalmounts=/mnt/emmc \
     ro.vold.switchablepair=/mnt/sdcard,/mnt/emmc
 
-#
-# Set ro.modversion
-#
-ifdef CYANOGEN_NIGHTLY
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-GalaxyS
-else
-    ifdef CYANOGEN_RELEASE
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-GalaxyS
-    else
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-GalaxyS-KANG
-    endif
-endif
+# Release name and versioning
+PRODUCT_RELEASE_NAME := GalaxyS
+PRODUCT_VERSION_DEVICE_SPECIFIC :=
+-include vendor/cyanogen/products/common_versions.mk
 
 #
 # Copy galaxys specific prebuilt files

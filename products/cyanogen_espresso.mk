@@ -28,21 +28,10 @@ PRODUCT_PACKAGES += Torch
 # Build GanOptimizer
 PRODUCT_PACKAGES += GanOptimizer
 
-#
-# Set ro.modversion
-#
-ifdef CYANOGEN_NIGHTLY
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-Slide
-else
-    ifdef CYANOGEN_RELEASE
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-Slide
-    else
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-Slide-KANG
-    endif
-endif
+# Release name and versioning
+PRODUCT_RELEASE_NAME := Slide
+PRODUCT_VERSION_DEVICE_SPECIFIC :=
+-include vendor/cyanogen/products/common_versions.mk
 
 #
 # Copy espresso specific prebuilt files

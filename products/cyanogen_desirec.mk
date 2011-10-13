@@ -25,21 +25,11 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/heroc
 
 # Enable Windows Media
 WITH_WINDOWS_MEDIA := true
-#
-# Set ro.modversion
-#
-ifdef CYANOGEN_NIGHTLY
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-Eris
-else
-    ifdef CYANOGEN_RELEASE
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-Eris
-    else
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-KANG-Eris
-    endif
-endif
+
+# Release name and versioning
+PRODUCT_RELEASE_NAME := Eris
+PRODUCT_VERSION_DEVICE_SPECIFIC :=
+-include vendor/cyanogen/products/common_versions.mk
 
 #
 # Copy dream/sapphire specific prebuilt files
