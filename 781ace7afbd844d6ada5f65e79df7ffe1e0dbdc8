@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAKH///8g\u003d",
+        "filename": "products/cyanogen_crespo.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 176
+      },
+      "writtenOn": "2011-10-16T18:57:03Z",
+      "side": 1,
+      "message": "This is only used on release status, release is already done, so no need to add this .1 here",
+      "revId": "781ace7afbd844d6ada5f65e79df7ffe1e0dbdc8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAKH///8k\u003d",
+        "filename": "products/cyanogen_crespo4g.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 176
+      },
+      "writtenOn": "2011-10-16T18:57:03Z",
+      "side": 1,
+      "message": "This is only used on release status, release is already done, so no need to add this .1 here",
+      "revId": "781ace7afbd844d6ada5f65e79df7ffe1e0dbdc8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
