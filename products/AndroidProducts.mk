@@ -58,6 +58,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_u8220.mk \
     $(LOCAL_DIR)/cyanogen_urushi.mk \
     $(LOCAL_DIR)/cyanogen_vega.mk \
+    $(LOCAL_DIR)/cyanogen_venus2.mk \
     $(LOCAL_DIR)/cyanogen_vibrantmtd.mk \
     $(LOCAL_DIR)/cyanogen_vision.mk \
     $(LOCAL_DIR)/cyanogen_vivo.mk \
