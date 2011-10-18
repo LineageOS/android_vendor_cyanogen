@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAKH///us\u003d",
+        "filename": "products/cyanogen_venus2.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-10-18T06:13:42Z",
+      "side": 1,
+      "message": "This block must be changed, related to recent \"rewrite\" of these files... check current ones",
+      "revId": "563b9bb8d6b6bdeb3766929806a7206a0b93e334",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
