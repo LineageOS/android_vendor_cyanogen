@@ -66,6 +66,7 @@ add_lunch_combo cyanogen_vibrantmtd-eng
 add_lunch_combo cyanogen_vision-eng
 add_lunch_combo cyanogen_vivo-eng
 add_lunch_combo cyanogen_vivow-eng
+add_lunch_combo cyanogen_vzwtab-eng
 add_lunch_combo cyanogen_z71-eng
 add_lunch_combo cyanogen_zeppelin-eng
 add_lunch_combo cyanogen_zero-eng
