@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAKn///DY\u003d",
+        "filename": "products/AndroidProducts.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 431
+      },
+      "writtenOn": "2011-10-30T01:32:29Z",
+      "side": 1,
+      "message": "Please keep the alphabetical ordering",
+      "revId": "59f2589c9c2d991f202fefd73e348ad80da45bf7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAKn///DU\u003d",
+        "filename": "products/cyanogen_betelgeuse.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 431
+      },
+      "writtenOn": "2011-10-30T01:32:29Z",
+      "side": 1,
+      "message": "Also, update this to use the new versioning system that is in place",
+      "revId": "59f2589c9c2d991f202fefd73e348ad80da45bf7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAKn///DQ\u003d",
+        "filename": "vendorsetup.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 431
+      },
+      "writtenOn": "2011-10-30T01:32:29Z",
+      "side": 1,
+      "message": "Again, keep alphabetical ordering",
+      "revId": "59f2589c9c2d991f202fefd73e348ad80da45bf7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
