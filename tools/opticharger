@@ -20,7 +20,13 @@ fi
 set -e
 QUIET=1
 BASE=`pwd`
+BRUTECRUSH="-brute"
 TMPDIR=/tmp/opticharge-$$
+
+if [ -z "$BRUTE_PNGCRUSH" ]
+then
+    BRUTECRUSH=""
+fi
 
 if [ "$APKCERTS" = "" ];
 then
@@ -40,7 +46,7 @@ fi
 if [ "$(which pngcrush)" != "" ];
 then
     optimize_png () {
-        pngcrush -q -brute $1 ${1}.out 1> /dev/null 2> /dev/null
+        pngcrush -q ${BRUTECRUSH} $1 ${1}.out 1> /dev/null 2> /dev/null
         mv ${1}.out ${1}
     }
 elif [ "$(which optipng)" != "" ];
