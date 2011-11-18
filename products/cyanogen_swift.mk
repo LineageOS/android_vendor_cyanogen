@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration for swift.
-$(call inherit-product, device/lg/swift/full_swift.mk)
+$(call inherit-product, device/lge/swift/full_swift.mk)
 
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cyanogen/products/common_full.mk)
