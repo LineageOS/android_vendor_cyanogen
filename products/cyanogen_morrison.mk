@@ -4,7 +4,7 @@ $(call inherit-product, device/motorola/morrison/morrison.mk)
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cyanogen/products/common_full.mk)
 
-$(call inherit-product vendor/cyanogen/products/bcm_fm_radio.mk)
+$(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
 
 $(call inherit-product, vendor/cyanogen/products/gsm.mk)
 
@@ -28,6 +28,3 @@ PRODUCT_COPY_FILES +=  \
     vendor/cyanogen/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/morrison
-
-# Add the FM app
-PRODUCT_PACKAGES += FM
