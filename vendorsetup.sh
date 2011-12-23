@@ -4,6 +4,7 @@ add_lunch_combo cyanogen_blade-eng
 add_lunch_combo cyanogen_bravo-eng
 add_lunch_combo cyanogen_bravoc-eng
 add_lunch_combo cyanogen_buzz-eng
+add_lunch_combo cyanogen_c660-eng
 add_lunch_combo cyanogen_click-eng
 add_lunch_combo cyanogen_captivatemtd-eng
 add_lunch_combo cyanogen_coconut-eng
