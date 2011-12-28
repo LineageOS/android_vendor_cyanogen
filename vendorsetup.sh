@@ -15,6 +15,7 @@ add_lunch_combo cyanogen_dream_sapphire-eng
 add_lunch_combo cyanogen_droid2-eng
 add_lunch_combo cyanogen_droid2we-eng
 add_lunch_combo cyanogen_encore-eng
+add_lunch_combo cyanogen_epicmtd-eng
 add_lunch_combo cyanogen_es209ra-eng
 add_lunch_combo cyanogen_espresso-eng
 add_lunch_combo cyanogen_fascinatemtd-eng
