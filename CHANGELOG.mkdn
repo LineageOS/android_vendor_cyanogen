@@ -55,6 +55,10 @@ Maintainers:
 * V9 (ZTE Light, Optus MyTab, others): kallt_kaffe and Tom Giordano
 * Motus (Backflip) : j_r0dd, flavio_frow
 * Saga (Desire S): Nexx, SuperKid
+* LGE Optimus Black: arcee
+* LGE Optimus 3D: arcee
+* LGE Optimus Hub: arcee
+* LGE Optimus Pro: arcee
 
 Translators:
 ------------
