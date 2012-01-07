@@ -45,6 +45,7 @@ add_lunch_combo cyanogen_morrison-eng
 add_lunch_combo cyanogen_motus-eng
 add_lunch_combo cyanogen_one-eng
 add_lunch_combo cyanogen_olympus-eng
+add_lunch_combo cyanogen_p500-eng
 add_lunch_combo cyanogen_p920-eng
 add_lunch_combo cyanogen_p925-eng
 add_lunch_combo cyanogen_p970-eng
