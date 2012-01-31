@@ -39,26 +39,32 @@ Maintainers:
 * Zeppelin (CLIQ XT/Quench): firesnatch, turl
 * Morrison (CLIQ/DEXT): ngiordano, dwagner, JassyCliq
 * Star (LG Optimus 2/G2x): arcee, cyanogen
-* Galaxy S (GT-I9000): coolya, codeworkx, atinm, GuiperPT, Unhelpful
+* Galaxy S (GT-I9000): coolya, codeworkx, atinm, GuiperPT, Unhelpful, pawitp
 * Captivate (SGH-I896/SGH-I897): atinm, Unhelpful, coolya, codeworkx
 * Epic (SPH-D700): Decad3nce, DRockstar, mkasick, noobnl, nullghost, Rodderik, UberPinguin, wispoffates, wtogami
-* Vibrant (SGH-T959): coolya, atinm, codeworkx, Unhelpful
+* Vibrant (SGH-T959): FaultException
 * Vivo (Incredible S): Kali-, attn1
 * Vivow (Incredible 2): Kali-, attn1
 * Jordan (Defy): Quarx, Epsylon3, maniac103
 * Droid2 (MotoA955): JBirdVegas, RevNumbers
 * Galaxy S II (GT-I9100): atinm, codeworkx, coolya, GuiperPT, Unhelpful
-* Xperia Arc (LT15i): Bin4ry,defer,jerpelea (FreeXperia team)
-* Xperia Neo (MT15i): Bin4ry,defer,jerpelea (FreeXperia team)
-* Xperia Play (R800i): Bin4ry,defer,jerpelea (FreeXperia team)
+* Xperia Arc (LT15i): Bin4ry, defer, jerpelea (FreeXperia team)
+* Xperia Neo (MT15i): Bin4ry, defer, jerpelea (FreeXperia team)
+* Xperia Play (R800i): Bin4ry, defer, jerpelea (FreeXperia team)
+* Xperia Arc, Xperia Active, Xperia Live with Walkman: FreeXperia
+* Xperia Mini, Xperia Mini Pro, Xperia Neo: FreeXperia
+* Xperia Pro, Xperia Play, Xperia Ray, Xperia X10: FreeXperia
 * Droid2we (Droid2 Global): RevNumbers, x13thangelx
+* Olympus (Atrix): turl, Atrix-Dev-Team
 * V9 (ZTE Light, Optus MyTab, others): kallt_kaffe and Tom Giordano
 * Motus (Backflip) : j_r0dd, flavio_frow
-* Saga (Desire S): Nexx, SuperKid
+* Saga (Desire S): Nexx
 * LGE Optimus Black: arcee
 * LGE Optimus 3D: arcee
 * LGE Optimus Hub: arcee
 * LGE Optimus Pro: arcee
+* LGE Optimus Sol: Kali-
+* LGE Optimus One: Adam Farden
 
 Translators:
 ------------
@@ -66,11 +72,11 @@ Translators:
 * Italian: Eugenio Ziliotto, Giulio Cervera
 * Japanese: Takuo Kitame
 * French: Sébastien Vaucher, David Girault, Tanguy Pruvot
-* Simplified Chinese: comercy, Qian Zheng
+* Simplified Chinese: comercy, Qian Zheng, John Hsing
 * Russian: OlegKrikun, Pavel Volkov, Kir Kolyshkin
 * Portuguese: Eduardo Martins, Ricardo Pinho
 * Portuguese-Brazil: Gustavo Rosa
-* Spanish: PeRiJeY, KalimochoAz, Chuckycrx
+* Spanish: PeRiJeY, KalimochoAz, Chuckycrx, djMesias
 * Catalan: Oriol Pellicer
 * Finnish: Antti Leukkunen
 * Swedish: Patrik Kullman
@@ -79,9 +85,47 @@ Translators:
 * Traditional Chinese: Ladios Jonquil
 * Slovak: Juraj Janecek
 * Czech: Ondrej Zima
+* Turkish: Ethem Evlice (androidmeda)
+* Hungarian: Kalman Stipta (apeelme), Zsolt Kelemen (kelzsoca), Zsolt Villant (Keeperv85), Janos Horvath (hjanos1)
 
-CHANGELOG (notable new features)
+CHANGELOG (notable new features or fixes)
 ---------
+
+### 7.2.0
+* New devices: Samsung Galaxy Ace, Mini, and Epic.
+               LGE Optimus Black, 3D, Hub, Pro, Sol, and One.
+               Motorola Atrix.
+               Sony Ericsson Xperia Live, Pro, and Active.
+               Huawei U8150
+* Common: Updated translations - (everyone)
+* Common: T9 predictive Phone dialer - Danesh M, Pawit Pornkitprasan
+* Common: Media player and recorder fixes for a number of corner cases - CAF, Danny Baumann
+* Common: Profile resets -  Ladios Jonquil
+* Common: Assorted Wifi fixes
+* OMAP Common: Support for recent OMAP3/OMAP4 devices - omapzoom
+* Common: Control haptic in quiet hours - Danesh M
+* Common: Lockscreen updates and new styles - Andrew Sutherland, Danny Baumann, Danesh M, Sven Dawitz, Taichi Nishimura
+* Common: Bluetooth MAP support - Jonathan Bensen
+* Common: ICS telephony fix backports - Spencer Oliver
+* Common: Support for Bluetooth GPS dongles - Cuong Bui
+* Common: Better support for mouse and usb keyboards - Emilio Lopez, Tanguy Pruvot
+* Common: Fix timezone detection in Hawaii - Warren Togami
+* Common: ICS Transition effects backport - Russ Underhill
+* Common: ICS Rotation effects backport - Tanguy Pruvot
+* Common: Allow photo storage selection when possible - Greg Kochaniak
+* Common: Improved Calendar reminder options - Danny Baumann
+* Common: Fix color banding in Gallery while displaying 32bpp images - Sang Tae Park
+* Common: ADB over network
+* Common: Improved AVRCP 1.3 compatibility
+* Common: Improved external keyboard and mouse behaviour on some corner cases - Tanguy Pruvot
+* Common: Status bar battery icon configuration - Simon Davie
+* Samsung Galaxy S GSM devices: Fix emergency dialing
+* p990: Add FM Radio support
+* p990/p999: fix background calls, fix HDMI output in 1080p
+* zeppelin, morrison, motus: Fixed camera zooming issues
+* Samsung Galaxy S devices: Add tv-out
+* Several devices: Fix device identification on Android Market
+* crespo, jordan, blade, v9, Samsung Galaxy S devices: Device specific settings section
 
 ### 7.1.0
 * Common: Android 2.3.7 (Google)
