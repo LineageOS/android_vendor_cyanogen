@@ -41,7 +41,7 @@ Maintainers:
 * Star (LG Optimus 2/G2x): arcee, cyanogen
 * Galaxy S (GT-I9000): coolya, codeworkx, atinm, GuiperPT, Unhelpful
 * Captivate (SGH-I896/SGH-I897): atinm, Unhelpful, coolya, codeworkx
-* Epic (SPH-D700): Decad3nce, DRockstar, mkasick, noobnl, nullghost, Rodderik, UberPinguin, wispoffates
+* Epic (SPH-D700): Decad3nce, DRockstar, mkasick, noobnl, nullghost, Rodderik, UberPinguin, wispoffates, wtogami
 * Vibrant (SGH-T959): coolya, atinm, codeworkx, Unhelpful
 * Vivo (Incredible S): Kali-, attn1
 * Vivow (Incredible 2): Kali-, attn1
