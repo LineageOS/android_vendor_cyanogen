@@ -52,6 +52,7 @@ Maintainers:
 * Xperia Neo (MT15i): Bin4ry,defer,jerpelea (FreeXperia team)
 * Xperia Play (R800i): Bin4ry,defer,jerpelea (FreeXperia team)
 * Droid2we (Droid2 Global): RevNumbers, x13thangelx
+* Olympus (Atrix): turl, Atrix-Dev-Team
 * V9 (ZTE Light, Optus MyTab, others): kallt_kaffe and Tom Giordano
 * Motus (Backflip) : j_r0dd, flavio_frow
 * Saga (Desire S): Nexx, SuperKid
@@ -59,6 +60,8 @@ Maintainers:
 * LGE Optimus 3D: arcee
 * LGE Optimus Hub: arcee
 * LGE Optimus Pro: arcee
+* LGE Optimus Sol: Kali-
+* LGE Optimus One: Adam Farden
 
 Translators:
 ------------
@@ -80,8 +83,40 @@ Translators:
 * Slovak: Juraj Janecek
 * Czech: Ondrej Zima
 
-CHANGELOG (notable new features)
+CHANGELOG (notable new features or fixes)
 ---------
+
+### 7.2.0
+* New devices: Samsung Galaxy Ace, Mini, and Epic.
+               LGE Optimus Black, 3D, Hub, Pro, Sol, and One.
+               Motorola Atrix.
+               Sony Ericsson Xperia Live, Pro, and Active. Huawei U8150
+* Common: Updated translations - (everyone)
+* Common: T9 predictive Phone dialer - Danesh M
+* Common: Media player fixes for a number of corner cases - CAF, Danny Baumann
+* Common: Profile resets -  Ladios Jonquil
+* Common: Assorted Wifi fixes
+* OMAP Common: Support for recent OMAP3/OMAP4 devices - omapzoom
+* Common: Control haptic in quiet hours - Danesh M
+* Common: Lockscreen updates and new styles - Andrew Sutherland, Danny Baumann, Danesh M, Sven Dawitz
+* Common: Bluetooth MAP support - Jonathan Bensen
+* Common: ICS telephony fix backports - Spencer Oliver
+* Common: Support for Bluetooth GPS dongles - Cuong Bui
+* Common: Better support for mouse and usb keyboards - Emilio Lopez, Tanguy Pruvot
+* Common: Fix timezone detection in Hawaii - Warren Togami
+* Common: ICS Transition effects backport - Russ Underhill
+* Common: ICS Rotation effects backport - Tanguy Pruvot
+* Common: Allow photo storage selection when possible - Greg Kochaniak
+* Common: Improved Calendar reminder options - Danny Baumann
+* Common: Fix color banding in Gallery while displaying 32bpp images - Sang Tae Park
+* Common: Optional device specific settings
+* Common: ADB over network
+* Samsung Galaxy S GSM devices: Fix emergency dialing
+* p990: Add FM Radio support
+* p990/p999: fix background calls, fix HDMI output in 1080p
+* zeppelin: Fixed camera zooming issues
+* Samsung Galaxy S devices: Add tv-out
+* Several devices: Fix device identification on Android Market
 
 ### 7.1.0
 * Common: Android 2.3.7 (Google)
