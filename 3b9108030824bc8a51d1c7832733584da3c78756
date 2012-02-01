@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAP3///UA\u003d",
+        "filename": "CHANGELOG.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 431
+      },
+      "writtenOn": "2012-02-01T06:17:01Z",
+      "side": 1,
+      "message": "We should probably add Atrix if we\u0027re doing RCs",
+      "revId": "3b9108030824bc8a51d1c7832733584da3c78756",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
