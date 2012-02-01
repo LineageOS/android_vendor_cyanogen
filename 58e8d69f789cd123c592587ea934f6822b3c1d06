@@ -16,6 +16,24 @@
       "revId": "58e8d69f789cd123c592587ea934f6822b3c1d06",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAP3///Mg\u003d",
+        "filename": "CHANGELOG.mkdn",
+        "patchSetId": 3
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-02-01T16:53:57Z",
+      "side": 1,
+      "message": "Umm, media player !\u003d media recorder ;)\nI was refering to those patches:\n- https://github.com/CyanogenMod/android_frameworks_base/commit/818068f74feeb8e7dfb966b6f983fbf754232777\n- https://github.com/CyanogenMod/android_frameworks_base/commit/e9c752017ad35d32af8011da99202b8778596723\n- https://github.com/CyanogenMod/android_hardware_ti_omap3-compat/commit/1a7ff647b6e983ec2a4d91c3d98ef81c880b09da\n\nWhile a player fix e.g. would be:\nhttps://github.com/CyanogenMod/android_hardware_ti_omap3-compat/commit/af78e86783a90aa5ca2ab31fa7428349dd19ea72\n\nIf you refered to both in line 97, I\u0027ll take out line 119 and update line 97 accordingly (\u0027Media player and recorder fixes\u0027).",
+      "parentUuid": "AAAAP3///Mw\u003d",
+      "revId": "58e8d69f789cd123c592587ea934f6822b3c1d06",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
