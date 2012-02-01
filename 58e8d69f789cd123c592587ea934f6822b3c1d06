@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAP3///Mw\u003d",
+        "filename": "CHANGELOG.mkdn",
+        "patchSetId": 3
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 10
+      },
+      "writtenOn": "2012-02-01T16:43:44Z",
+      "side": 1,
+      "message": "^ Not really. This was done on common :) Look at line 97",
+      "revId": "58e8d69f789cd123c592587ea934f6822b3c1d06",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
