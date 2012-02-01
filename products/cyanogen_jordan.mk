@@ -7,9 +7,6 @@ $(call inherit-product, vendor/cyanogen/products/gsm.mk)
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cyanogen/products/common_full.mk)
 
-# Extra jordan overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/jordan
-
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
