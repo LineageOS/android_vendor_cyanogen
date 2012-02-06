@@ -11,7 +11,7 @@ include frameworks/base/data/sounds/AllAudio.mk
 # Include extra dictionaries for LatinIME
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/dictionaries
 
-# Default ringtone
+# Default Ringtone
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Playa.ogg \
     ro.config.notification_sound=regulus.ogg \
