@@ -5,7 +5,7 @@ $(call inherit-product, vendor/cyanogen/products/gsm.mk)
 $(call inherit-product, device/lge/c660/c660.mk)
 
 # Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cyanogen/products/common_full.mk)
+$(call inherit-product, vendor/cyanogen/products/common_full_no_themes.mk)
 
 # Broadcom FM radio
 $(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
