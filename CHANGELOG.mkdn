@@ -62,23 +62,24 @@ Maintainers:
 
 Translators:
 ------------
+* Catalan: Oriol Pellicer
+* Chinese (Simplified): comercy, Qian Zheng
+* Chinese (Traditional): Ladios Jonquil
+* Czech: Ondrej Zima
+* Finnish: Antti Leukkunen
+* French: Sébastien Vaucher, David Girault, Tanguy Pruvot
 * German: Matthias Büchner, Alexander Hofbauer, Sebastian K (DerSeppel), Ricco Thiel, Andreas Böhm
 * Italian: Eugenio Ziliotto, Giulio Cervera
 * Japanese: Takuo Kitame
-* French: Sébastien Vaucher, David Girault, Tanguy Pruvot
-* Simplified Chinese: comercy, Qian Zheng
-* Russian: OlegKrikun, Pavel Volkov, Kir Kolyshkin
-* Portuguese: Eduardo Martins, Ricardo Pinho
-* Portuguese-Brazil: Gustavo Rosa
-* Spanish: PeRiJeY, KalimochoAz, Chuckycrx
-* Catalan: Oriol Pellicer
-* Finnish: Antti Leukkunen
-* Swedish: Patrik Kullman
-* Polish: Maciej Rozbicki
 * Korean: Inseok Lee
-* Traditional Chinese: Ladios Jonquil
+* Polish: Maciej Rozbicki
+* Portuguese: Eduardo Martins, Ricardo Pinho
+* Portuguese (Brazil): Gustavo Rosa
+* Russian: OlegKrikun, Pavel Volkov, Kir Kolyshkin
 * Slovak: Juraj Janecek
-* Czech: Ondrej Zima
+* Spanish: PeRiJeY, KalimochoAz, Chuckycrx
+* Swedish: Patrik Kullman
+* Turkish: Ethem Evlice (androidmeda)
 
 CHANGELOG (notable new features)
 ---------
