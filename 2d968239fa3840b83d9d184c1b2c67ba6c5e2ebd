@@ -1,0 +1,10 @@
+Change-Id: I2d968239fa3840b83d9d184c1b2c67ba6c5e2ebd
+Code-Review+2: Ricardo Cerqueira <cyanogenmod@cerqueira.org>
+Verified+1: Ricardo Cerqueira <cyanogenmod@cerqueira.org>
+Code-Review+1: atinm <atinm.dev@gmail.com>
+Code-Review+1: Daniel Bateman <jetison.24@gmail.com>
+Submitted-by: Ricardo Cerqueira <cyanogenmod@cerqueira.org>
+Submitted-at: Fri, 10 Feb 2012 21:55:40 +0300
+Reviewed-on: http://review.cyanogenmod.com/12591
+Project: CyanogenMod/android_vendor_cyanogen
+Branch: refs/heads/gingerbread
