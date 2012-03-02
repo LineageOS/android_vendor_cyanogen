@@ -65,6 +65,7 @@ Maintainers:
 * LGE Optimus Pro: arcee
 * LGE Optimus Sol: Kali-
 * LGE Optimus One: Adam Farden
+* Skate (Monte Carlo, SFR Staraddict, others): Lalit Maganti
 
 Translators:
 ------------
