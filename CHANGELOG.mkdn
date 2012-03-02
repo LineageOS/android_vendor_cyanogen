@@ -65,6 +65,7 @@ Maintainers:
 * LGE Optimus Pro: arcee
 * LGE Optimus Sol: Kali-
 * LGE Optimus One: Adam Farden
+* Skate (Monte Carlo, SFR Staraddict, others): Lalit Maganti
 
 Translators:
 ------------
@@ -96,7 +97,8 @@ CHANGELOG (notable new features or fixes)
                LGE Optimus Black, 3D, Hub, Pro, Sol, and One.
                Motorola Atrix.
                Sony Ericsson Xperia Live, Pro, and Active.
-               Huawei U8150
+               Huawei U8150.
+               ZTE Skate.
 * Common: Updated translations - (everyone)
 * Common: T9 predictive Phone dialer - Danesh M, Pawit Pornkitprasan
 * Common: Media player and recorder fixes for a number of corner cases - CAF, Danny Baumann
