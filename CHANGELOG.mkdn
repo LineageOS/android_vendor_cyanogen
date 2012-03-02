@@ -59,6 +59,7 @@ Maintainers:
 * LGE Optimus 3D: arcee
 * LGE Optimus Hub: arcee
 * LGE Optimus Pro: arcee
+* Skate (Monte Carlo, SFR Staraddict, others): Lalit Maganti
 
 Translators:
 ------------
