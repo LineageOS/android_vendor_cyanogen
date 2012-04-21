@@ -67,6 +67,7 @@ Maintainers:
 * LGE Optimus One: Adam Farden
 * U8150 (Ideos): Lalit Maganti and Alan Orth
 * LGE Optimus Chic: arcee
+* Motorola Photon (sunfire): cybik
 
 Translators:
 ------------
