@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAASn//94E\u003d",
+        "filename": "products/AndroidProducts.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 431
+      },
+      "writtenOn": "2012-04-28T09:39:42Z",
+      "side": 1,
+      "message": "Including it one time is enough, drop this one to keep the alphabetical order",
+      "revId": "e0580d61864bb5a25e89700650201cc66a16bc9d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAASn//94I\u003d",
+        "filename": "products/cyanogen_sunfire.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 431
+      },
+      "writtenOn": "2012-04-28T09:39:42Z",
+      "side": 1,
+      "message": "olympus, not optimus :)",
+      "revId": "e0580d61864bb5a25e89700650201cc66a16bc9d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAASn//94A\u003d",
+        "filename": "vendorsetup.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 431
+      },
+      "writtenOn": "2012-04-28T09:39:42Z",
+      "side": 1,
+      "message": "Alphabetical order while you\u0027re at it :)",
+      "revId": "e0580d61864bb5a25e89700650201cc66a16bc9d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
