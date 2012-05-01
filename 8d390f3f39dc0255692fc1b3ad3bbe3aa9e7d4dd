@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAASn//9ag\u003d",
+        "filename": "products/cyanogen_sunfire.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1421
+      },
+      "writtenOn": "2012-05-01T09:31:13Z",
+      "side": 1,
+      "message": "Maybe add a TODO comment indicating why this is commented out? It\u0027s obvious if you know about the device but it might not be to others.",
+      "revId": "8d390f3f39dc0255692fc1b3ad3bbe3aa9e7d4dd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
