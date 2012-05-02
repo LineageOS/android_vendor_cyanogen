@@ -103,7 +103,7 @@
   <apn carrier="Jazztel MMS" mcc="214" mnc="21" apn="jazzmms" mmsc="http://jazztelmms.com:8081" mmsproxy="217.18.32.183" mmsport="8081" type="mms" />
   <apn carrier="Telenor MMS" mcc="216" mnc="01" apn="mms" mmsc="http://mmsc.telenor.hu/" mmsproxy="84.225.255.1" mmsport="8080" authtype="2" type="mms" />
   <apn carrier="Telenor Net" mcc="216" mnc="01" apn="net" type="default,supl" />
-  <apn carrier="Telenor Online" mcc="216" mnc="01" apn="online" authtype="2" type="internet" />
+  <apn carrier="Telenor Online" mcc="216" mnc="01" apn="online" authtype="2" type="default" />
   <apn carrier="Telenor GO" mcc="216" mnc="01" apn="online" proxy="84.225.255.1" port="8080" authtype="2" type="internet" />
   <apn carrier="T-Mobile NET" mcc="216" mnc="30" apn="internet" type="default,supl" />
   <apn carrier="T-Mobile MMS" mcc="216" mnc="30" apn="mms" user="mms" password="mms" mmsc="http://mms.t-mobile.hu/servlets/mms" mmsproxy="212.51.126.010" mmsport="8080" authtype="1" type="mms" />
