@@ -10,6 +10,9 @@ $(call inherit-product, vendor/cyanogen/products/common_full.mk)
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
+# Build GanOptimizer
+PRODUCT_PACKAGES += GanOptimizer
+
 #
 # Setup device specific product configuration.
 #
