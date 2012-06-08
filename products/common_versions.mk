@@ -16,16 +16,17 @@ ifdef CYANOGEN_RELEASE
     CM_BUILDTYPE := RELEASE
 endif
 
-ifdef CYANOGEN_EXTRAVERSION
-    # Force build type to EXPERIMENTAL
-    CM_BUILDTYPE := EXPERIMENTAL
-    # Add leading dash to CM_EXTRAVERSION
-    CM_EXTRAVERSION := -$(CYANOGEN_EXTRAVERSION)
-endif
-
-# If CM_BUILDTYPE is not defined, set to UNOFFICIAL
-ifndef CYANOGEN_BUILDTYPE
+ifdef CM_BUILDTYPE
+    ifdef CYANOGEN_EXTRAVERSION
+        # Force build type to EXPERIMENTAL
+        CM_BUILDTYPE := EXPERIMENTAL
+        # Add leading dash to CM_EXTRAVERSION
+        CM_EXTRAVERSION := -$(CYANOGEN_EXTRAVERSION)
+    endif
+else
+    # If CM_BUILDTYPE is not defined, set to UNOFFICIAL
     CM_BUILDTYPE := UNOFFICIAL
+    CM_EXTRAVERSION :=
 endif
 
 ifdef CYANOGEN_RELEASE
