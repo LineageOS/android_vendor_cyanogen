@@ -39,7 +39,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Release name and versioning
 PRODUCT_RELEASE_NAME := Desire
-PRODUCT_VERSION_DEVICE_SPECIFIC :=
+PRODUCT_VERSION_DEVICE_SPECIFIC := .1
 -include vendor/cyanogen/products/common_versions.mk
 
 #
