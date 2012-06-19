@@ -61,6 +61,7 @@ add_lunch_combo cyanogen_shadow-eng
 add_lunch_combo cyanogen_shakira-eng
 add_lunch_combo cyanogen_sholes-eng
 add_lunch_combo cyanogen_showcasemtd-eng
+add_lunch_combo cyanogen_skate-eng
 add_lunch_combo cyanogen_smb_a1002-eng
 add_lunch_combo cyanogen_smb_a1004-eng
 add_lunch_combo cyanogen_smb_a1011-eng
