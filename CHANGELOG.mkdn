@@ -69,6 +69,7 @@ Maintainers:
 * LGE Optimus Chic: arcee
 * Motorola Photon (sunfire): cybik
 * LGE Optimus Me: Ron Gokhle
+* Skate (Monte Carlo, SFR Staraddict, others): Lalit Maganti
 
 Translators:
 ------------
