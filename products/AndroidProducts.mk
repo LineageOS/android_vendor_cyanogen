@@ -66,6 +66,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_supersonic.mk \
     $(LOCAL_DIR)/cyanogen_tass.mk \
     $(LOCAL_DIR)/cyanogen_u8150.mk \
+    $(LOCAL_DIR)/cyanogen_u8160.mk \
     $(LOCAL_DIR)/cyanogen_u8220.mk \
     $(LOCAL_DIR)/cyanogen_urushi.mk \
     $(LOCAL_DIR)/cyanogen_v9.mk \
