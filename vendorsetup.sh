@@ -23,6 +23,7 @@ add_lunch_combo cyanogen_epicmtd-eng
 add_lunch_combo cyanogen_es209ra-eng
 add_lunch_combo cyanogen_espresso-eng
 add_lunch_combo cyanogen_fascinatemtd-eng
+add_lunch_combo cyanogen_galaxy5-eng
 add_lunch_combo cyanogen_galaxys2-eng
 add_lunch_combo cyanogen_galaxys2att-eng
 add_lunch_combo cyanogen_galaxysbmtd-eng
