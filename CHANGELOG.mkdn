@@ -68,6 +68,7 @@ Maintainers:
 * U8150 (Ideos): Lalit Maganti and Alan Orth
 * LGE Optimus Chic: arcee
 * Motorola Photon (sunfire): cybik
+* LGE Optimus Me: Ron Gokhle
 
 Translators:
 ------------
