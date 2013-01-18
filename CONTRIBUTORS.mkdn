@@ -1,0 +1,88 @@
+CyanogenMod
+===============
+
+Maintainers (CyanogenMod 7):
+------------
+__Nexus One: Cyanogen
+__Nexus S: Koush, KalimochoAz
+__Droid: cvpcs, mtwebster, Koush
+__Dream/Sapphire: Sileht, Wes Garner, Cyanogen
+__Eris: Workshed, Conap
+__Hero: Esa Laukkanen (GSM), Decad3nce (CDMA)
+__Desire (GSM/CDMA): Kali-, Defer
+__Incredible: jistone, slayher, Koush
+__Supersonic (EVO): Cyanogen, toastcfh
+__Espresso (Slide): Cyanogen, Wes Garner
+__Liberty (Aria): attn1, jznomoney
+__Legend: Alexander Hofbauer
+__Vision (G2/Desire Z): Cyanogen
+__Geeksphone ONE: arcee
+__Geeksphone ZERO: arcee
+__Z71 (Boston, G1305, XT502, A60, Blaze, others): arcee
+__Buzz (Wildfire): Jacob Crawley, Arne Coucheron
+__Harmony (Malata smb_a1002/smb_b9701): bekit, pershoot
+__Harmony (Malata smb_a1004/smb_a1011): arcee
+__Ace (Desire HD/Inspire 4G): Kali-, jznomoney, attn1
+__Glacier (MT4G): Zinx, Kmobs, cyanogen
+__Click (Tattoo): KalimochoAz, Arne Coucheron
+__Blade (San Francisco, Sapo A5, others): Tom Giordano and Jacob Crawley
+__Encore (Nook Color): dalingrin, nemith, fattire
+__Speedy: toastcfh
+__Zeppelin (CLIQ XT/Quench): firesnatch, turl
+__Morrison (CLIQ/DEXT): ngiordano, dwagner, JassyCliq
+__Star (LG Optimus 2/G2x): arcee, cyanogen
+__Galaxy S (GT-I9000): coolya, codeworkx, atinm, GuiperPT, Unhelpful, pawitp
+__Captivate (SGH-I896/SGH-I897): atinm, Unhelpful, coolya, codeworkx
+__Epic (SPH-D700): Decad3nce, DRockstar, mkasick, noobnl, nullghost, Rodderik, UberPinguin, wispoffates, wtogami
+__Vibrant (SGH-T959): FaultException
+__Vivo (Incredible S): Kali-, attn1
+__Vivow (Incredible 2): Kali-, attn1
+__Jordan (Defy): Quarx, Epsylon3, maniac103
+__Droid2 (MotoA955): JBirdVegas, RevNumbers
+__Galaxy S II (GT-I9100): atinm, codeworkx, coolya, GuiperPT, Unhelpful
+__Xperia Arc (LT15i): Bin4ry, defer, jerpelea (FreeXperia team)
+__Xperia Neo (MT15i): Bin4ry, defer, jerpelea (FreeXperia team)
+__Xperia Play (R800i): Bin4ry, defer, jerpelea (FreeXperia team)
+__Xperia Arc, Xperia Active, Xperia Live with Walkman: FreeXperia
+__Xperia Mini, Xperia Mini Pro, Xperia Neo: FreeXperia
+__Xperia Pro, Xperia Play, Xperia Ray, Xperia X10: FreeXperia
+__Droid2we (Droid2 Global): RevNumbers, x13thangelx
+__Olympus (Atrix): turl, Atrix-Dev-Team
+__V9 (ZTE Light, Optus MyTab, others): kallt_kaffe and Tom Giordano
+__Motus (Backflip) : j_r0dd, flavio_frow
+__Saga (Desire S): Nexx
+__LGE Optimus Black: arcee
+__LGE Optimus 3D: arcee
+__LGE Optimus Hub: arcee
+__LGE Optimus Pro: arcee
+__LGE Optimus Sol: Kali-
+__LGE Optimus One: Adam Farden
+__U8150 (Ideos): Lalit Maganti and Alan Orth
+__LGE Optimus Chic: arcee
+__Motorola Photon (sunfire): cybik
+__LGE Optimus Me: Ron Gokhle
+__Skate (Monte Carlo, SFR Staraddict, others): Lalit Maganti
+
+Translators:
+------------
+__Catalan: Oriol Pellicer
+__Czech: Ondrej Zima
+__Dutch: Marco Brohet
+__Finnish: Antti Leukkunen
+__French: Sébastien Vaucher, David Girault, Tanguy Pruvot
+__German: Matthias Büchner, Alexander Hofbauer, Sebastian K (DerSeppel), Ricco Thiel, Andreas Böhm
+__Greek: Michael Bestas
+__Hungarian: Kalman Stipta (apeelme), Zsolt Kelemen (kelzsoca), Zsolt Villant (Keeperv85), Janos Horvath (hjanos1)
+__Italian: Eugenio Ziliotto, Giulio Cervera
+__Japanese: Takuo Kitame
+__Korean: Inseok Lee
+__Polish: Maciej Rozbicki
+__Portuguese: Eduardo Martins, Ricardo Pinho
+__Portuguese-Brazil: Gustavo Rosa
+__Russian: OlegKrikun, Pavel Volkov, Kir Kolyshkin
+__Simplified Chinese: comercy, Qian Zheng, John Hsing
+__Slovak: Juraj Janecek
+__Spanish: PeRiJeY, KalimochoAz, Chuckycrx, djMesias
+__Swedish: Patrik Kullman
+__Traditional Chinese: Ladios Jonquil
+__Turkish: Ethem Evlice (androidmeda)
