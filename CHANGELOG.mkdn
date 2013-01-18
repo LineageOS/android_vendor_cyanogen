@@ -3,96 +3,7 @@ CyanogenMod
 
 Visit http://github.com/CyanogenMod for full changelogs and git access.
 
-Visit http://review.cyanogenmod.com for our Gerrit instance.
-
-Visit http://bit.ly/cmprogress for the device release spreadsheet.
-
-Follow http://twitter.com/cmsrc for commit-by-commit updates.
-
-Maintainers:
-------------
-* Nexus One: Cyanogen
-* Nexus S: Koush, KalimochoAz
-* Droid: cvpcs, mtwebster, Koush
-* Dream/Sapphire: Sileht, Wes Garner, Cyanogen
-* Eris: Workshed, Conap
-* Hero: Esa Laukkanen (GSM), Decad3nce (CDMA)
-* Desire (GSM/CDMA): Kali-, Defer
-* Incredible: jistone, slayher, Koush
-* Supersonic (EVO): Cyanogen, toastcfh
-* Espresso (Slide): Cyanogen, Wes Garner
-* Liberty (Aria): attn1, jznomoney
-* Legend: Alexander Hofbauer
-* Vision (G2/Desire Z): Cyanogen
-* Geeksphone ONE: arcee
-* Geeksphone ZERO: arcee
-* Z71 (Boston, G1305, XT502, A60, Blaze, others): arcee
-* Buzz (Wildfire): Jacob Crawley, Arne Coucheron
-* Harmony (Malata smb_a1002/smb_b9701): bekit, pershoot
-* Harmony (Malata smb_a1004/smb_a1011): arcee
-* Ace (Desire HD/Inspire 4G): Kali-, jznomoney, attn1
-* Glacier (MT4G): Zinx, Kmobs, cyanogen
-* Click (Tattoo): KalimochoAz, Arne Coucheron
-* Blade (San Francisco, Sapo A5, others): Tom Giordano and Jacob Crawley
-* Encore (Nook Color): dalingrin, nemith, fattire
-* Speedy: toastcfh
-* Zeppelin (CLIQ XT/Quench): firesnatch, turl
-* Morrison (CLIQ/DEXT): ngiordano, dwagner, JassyCliq
-* Star (LG Optimus 2/G2x): arcee, cyanogen
-* Galaxy S (GT-I9000): coolya, codeworkx, atinm, GuiperPT, Unhelpful, pawitp
-* Captivate (SGH-I896/SGH-I897): atinm, Unhelpful, coolya, codeworkx
-* Epic (SPH-D700): Decad3nce, DRockstar, mkasick, noobnl, nullghost, Rodderik, UberPinguin, wispoffates, wtogami
-* Vibrant (SGH-T959): FaultException
-* Vivo (Incredible S): Kali-, attn1
-* Vivow (Incredible 2): Kali-, attn1
-* Jordan (Defy): Quarx, Epsylon3, maniac103
-* Droid2 (MotoA955): JBirdVegas, RevNumbers
-* Galaxy S II (GT-I9100): atinm, codeworkx, coolya, GuiperPT, Unhelpful
-* Xperia Arc (LT15i): Bin4ry, defer, jerpelea (FreeXperia team)
-* Xperia Neo (MT15i): Bin4ry, defer, jerpelea (FreeXperia team)
-* Xperia Play (R800i): Bin4ry, defer, jerpelea (FreeXperia team)
-* Xperia Arc, Xperia Active, Xperia Live with Walkman: FreeXperia
-* Xperia Mini, Xperia Mini Pro, Xperia Neo: FreeXperia
-* Xperia Pro, Xperia Play, Xperia Ray, Xperia X10: FreeXperia
-* Droid2we (Droid2 Global): RevNumbers, x13thangelx
-* Olympus (Atrix): turl, Atrix-Dev-Team
-* V9 (ZTE Light, Optus MyTab, others): kallt_kaffe and Tom Giordano
-* Motus (Backflip) : j_r0dd, flavio_frow
-* Saga (Desire S): Nexx
-* LGE Optimus Black: arcee
-* LGE Optimus 3D: arcee
-* LGE Optimus Hub: arcee
-* LGE Optimus Pro: arcee
-* LGE Optimus Sol: Kali-
-* LGE Optimus One: Adam Farden
-* U8150 (Ideos): Lalit Maganti and Alan Orth
-* LGE Optimus Chic: arcee
-* Motorola Photon (sunfire): cybik
-* LGE Optimus Me: Ron Gokhle
-* Skate (Monte Carlo, SFR Staraddict, others): Lalit Maganti
-
-Translators:
-------------
-* German: Matthias Büchner, Alexander Hofbauer, Sebastian K (DerSeppel), Ricco Thiel, Andreas Böhm
-* Italian: Eugenio Ziliotto, Giulio Cervera
-* Japanese: Takuo Kitame
-* French: Sébastien Vaucher, David Girault, Tanguy Pruvot
-* Simplified Chinese: comercy, Qian Zheng, John Hsing
-* Russian: OlegKrikun, Pavel Volkov, Kir Kolyshkin
-* Portuguese: Eduardo Martins, Ricardo Pinho
-* Portuguese-Brazil: Gustavo Rosa
-* Spanish: PeRiJeY, KalimochoAz, Chuckycrx, djMesias
-* Catalan: Oriol Pellicer
-* Finnish: Antti Leukkunen
-* Swedish: Patrik Kullman
-* Polish: Maciej Rozbicki
-* Korean: Inseok Lee
-* Traditional Chinese: Ladios Jonquil
-* Slovak: Juraj Janecek
-* Czech: Ondrej Zima
-* Turkish: Ethem Evlice (androidmeda)
-* Hungarian: Kalman Stipta (apeelme), Zsolt Kelemen (kelzsoca), Zsolt Villant (Keeperv85), Janos Horvath (hjanos1)
-* Dutch: Marco Brohet
+Visit http://review.cyanogenmod.org for our Gerrit instance.
 
 CHANGELOG (notable new features or fixes)
 ---------
@@ -181,7 +92,6 @@ CHANGELOG (notable new features or fixes)
 * Common: "eat" pushes fresh brunch/breakfast to device - Ricardo Cerqueira
 * Common: Customizable account color chip in Email - copolii
 * Common: "Rings" lockscreen - Valera Trubachev
-
 * Click, Motorola: Speed up photo recording - Emilio López
 * Click, Motorola: Add Geolocation to photo app - KalimochoAz
 * Click: Upgraded kernel from HTC 2.6.29 to 2.6.35
@@ -396,7 +306,6 @@ CHANGELOG (notable new features or fixes)
 * Vision: LED enhancement - Pershoot
 * Droid: Kernel 2.6.32.9
 
-
 ### 6.0.0
 * ANDROID: Google, HTC, Qualcomm, and everybody else.  We <3 U
 * Common: ADWLauncher 1.1.4 - Ander Webbs
@@ -466,5 +375,3 @@ CHANGELOG (notable new features or fixes)
 * EVO: Sprint MMS fixes - Darchstar, toastcfh
 * N1/Desire: True 720P encoding support - HTC, Cyanogen, Charan Singh, Enomther
 * Desire: Kernel base from Kali- & Defer
-
-
