@@ -1,0 +1,96 @@
+CyanogenMod
+===============
+
+Maintainers (CyanogenMod 7):
+------------
+__Commtiva Z71 (Boston, G1305, XT502, A60, Blaze, others):__ arcee
+__B&N NookColor (Encore):__ dalingrin, nemith, fattire
+__Geeksphone ONE:__ arcee
+__Geeksphone ZERO:__ arcee
+__Google Nexus One:__ Cyanogen
+__Google Nexus S:__ Koush, KalimochoAz
+__HTC Click (Tattoo):__ KalimochoAz, Arne Coucheron
+__HTC Desire (GSM/CDMA):__ Kali-, Defer
+__HTC Desire HD (Ace/Inspire 4G):__ Kali-, jznomoney, attn1
+__HTC Desire S (Saga):__ Nexx
+__HTC Dream:__ Sileht, Wes Garner, Cyanogen
+__HTC Droid:__ cvpcs, mtwebster, Koush
+__HTC Droid Eris:__ Workshed, Conap
+__HTC Droid Incredible:__ jistone, slayher, Koush
+__HTC Espresso (Slide):__ Cyanogen, Wes Garner
+__HTC Glacier (MT4G):__ Zinx, Kmobs, cyanogen
+__HTC Hero:__ Esa Laukkanen (GSM), Decad3nce (CDMA)
+__HTC Incredible S (Vivo):__ Kali-, attn1
+__HTC Incredible 2 (Vivow):__ Kali-, attn1
+__HTC Legend:__ Alexander Hofbauer
+__HTC Liberty (Aria):__ attn1, jznomoney
+__HTC Sapphire:__ Sileht, Wes Garner, Cyanogen
+__HTC Speedy:__ toastcfh
+__HTC Supersonic (EVO):__ Cyanogen, toastcfh
+__HTC Vision (G2/Desire Z):__ Cyanogen
+__HTC Wildfire (Buzz):__ Jacob Crawley, Arne Coucheron
+__Huawei Ideos (U8150):__ Lalit Maganti and Alan Orth
+__LG Optimus 2 (Star/G2x):__ arcee, cyanogen
+__LG Optimus 3D:__ arcee
+__LG Optimus Black:__ arcee
+__LG Optimus Chic:__ arcee
+__LG Optimus Hub:__ arcee
+__LG Optimus Me:__ Ron Gokhle
+__LG Optimus One:__ Adam Farden
+__LG Optimus Pro:__ arcee
+__LG Optimus Sol:__ Kali-
+__Malata Harmony (smb_a1002/smb_b9701):__ bekit, pershoot
+__Malata Harmony (smb_a1004/smb_a1011):__ arcee
+__Motorola Atrix (Olympus):__ turl, Atrix-Dev-Team
+__Motorola Backflip (Motus) :__ j_r0dd, flavio_frow
+__Motorola Defy (Jordan):__ Quarx, Epsylon3, maniac103
+__Motorola Droid2 (MotoA955):__ JBirdVegas, RevNumbers
+__Motorola Droid2 Global (Droid2we):__ RevNumbers, x13thangelx
+__Motorola Morrison (CLIQ/DEXT):__ ngiordano, dwagner, JassyCliq
+__Motorola Photon (sunfire):__ cybik
+__Motorola Zeppelin (CLIQ XT/Quench):__ firesnatch, turl
+__Samsung Captivate (SGH-I896/SGH-I897):__ atinm, Unhelpful, coolya, codeworkx
+__Samsung Epic (SPH-D700):__ Decad3nce, DRockstar, mkasick, noobnl, nullghost, Rodderik, UberPinguin, wispoffates, wtogami
+__Samsung Galaxy S (GT-I9000):__ coolya, codeworkx, atinm, GuiperPT, Unhelpful, pawitp
+__Samsung Galaxy S II (GT-I9100):__ atinm, codeworkx, coolya, GuiperPT, Unhelpful
+__Samsung Vibrant (SGH-T959):__ FaultException
+__Sony Ericsson Live with Walkman (WT19i):__ FreeXperia team
+__Sony Ericsson Xperia Active (ST17i):__ FreeXperia team
+__Sony Ericsson Xperia Arc (LT15i):__ Bin4ry, defer, jerpelea (FreeXperia team)
+__Sony Ericsson Xperia Mini (ST15i):__ FreeXperia team
+__Sony Ericsson Xperia Mini Pro (SK17i):__ FreeXperia team
+__Sony Ericsson Xperia Neo (MT15i):__ Bin4ry, defer, jerpelea (FreeXperia team)
+__Sony Ericsson Xperia Pro (MK16i):__ FreeXperia team
+__Sony Ericsson Xperia Play (R800i):__ Bin4ry, defer, jerpelea (FreeXperia team)
+__Sony Ericsson Xperia Ray (ST18i):__ FreeXperia team
+__Sony Ericsson Xperia X8 (E15i):__ FreeXperia team
+__Sony Ericsson Xperia X10 (es209ra):__ FreeXperia team
+__Sony Ericsson Xperia X10 mini (E10i):__ FreeXperia team
+__Sony Ericsson Xperia X10 mini pro (U20i):__ FreeXperia team
+__ZTE Blade (San Francisco, Sapo A5, others):__ Tom Giordano and Jacob Crawley
+__ZTE Skate (Monte Carlo, SFR Staraddict, others):__ Lalit Maganti
+__ZTE V9 (Light, Optus MyTab, others):__ kallt_kaffe and Tom Giordano
+
+Translators:
+------------
+__Catalan:__ Oriol Pellicer
+__Czech:__ Ondrej Zima
+__Dutch:__ Marco Brohet
+__Finnish:__ Antti Leukkunen
+__French:__ Sébastien Vaucher, David Girault, Tanguy Pruvot
+__German:__ Matthias Büchner, Alexander Hofbauer, Sebastian K (DerSeppel), Ricco Thiel, Andreas Böhm
+__Greek:__ Michael Bestas
+__Hungarian:__ Kalman Stipta (apeelme), Zsolt Kelemen (kelzsoca), Zsolt Villant (Keeperv85), Janos Horvath (hjanos1)
+__Italian:__ Eugenio Ziliotto, Giulio Cervera
+__Japanese:__ Takuo Kitame
+__Korean:__ Inseok Lee
+__Polish:__ Maciej Rozbicki
+__Portuguese:__ Eduardo Martins, Ricardo Pinho
+__Portuguese-Brazil:__ Gustavo Rosa
+__Russian:__ OlegKrikun, Pavel Volkov, Kir Kolyshkin
+__Simplified Chinese:__ comercy, Qian Zheng, John Hsing
+__Slovak:__ Juraj Janecek
+__Spanish:__ PeRiJeY, KalimochoAz, Chuckycrx, djMesias
+__Swedish:__ Patrik Kullman
+__Traditional Chinese:__ Ladios Jonquil
+__Turkish:__ Ethem Evlice (androidmeda)
