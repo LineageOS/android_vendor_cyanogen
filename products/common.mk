@@ -99,23 +99,19 @@ PRODUCT_COPY_FILES += \
 ifdef CYANOGEN_WITH_GOOGLE
 
     # use all present proprietary apk
-    PRODUCT_COPY_FILES += $(shell test -f vendor/cyanogen/proprietary/*.apk && \
-	find vendor/cyanogen/proprietary -name '*.apk' \
+    PRODUCT_COPY_FILES += $(shell find vendor/cyanogen/proprietary -name '*.apk' \
 	-printf '%p:system/app/%f ')
 
     # use all present proprietary lib
-    PRODUCT_COPY_FILES += $(shell test -f vendor/cyanogen/proprietary/*.so && \
-	find vendor/cyanogen/proprietary -name '*.so' \
+    PRODUCT_COPY_FILES += $(shell find vendor/cyanogen/proprietary -name '*.so' \
 	-printf '%p:system/lib/%f ')
 
     # use all present proprietary jar
-    PRODUCT_COPY_FILES += $(shell test -f vendor/cyanogen/proprietary/*.jar && \
-	find vendor/cyanogen/proprietary -name '*.jar' \
+    PRODUCT_COPY_FILES += $(shell find vendor/cyanogen/proprietary -name '*.jar' \
 	-printf '%p:system/framework/%f ')
 
     # use all present proprietary xml (permissions)
-    PRODUCT_COPY_FILES += $(shell test -f vendor/cyanogen/proprietary/*.xml && \
-	find vendor/cyanogen/proprietary -name '*.xml' \
+    PRODUCT_COPY_FILES += $(shell find vendor/cyanogen/proprietary -name '*.xml' \
 	-printf '%p:system/etc/permissions/%f ')
 
 else
