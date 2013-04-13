@@ -3,3 +3,5 @@
 ifdef CYANOGEN_WITH_GOOGLE
     PACKAGES.Email.OVERRIDES := Provision QuickSearchBox
 endif
+
+include $(all-subdir-makefiles)
